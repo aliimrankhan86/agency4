@@ -1,0 +1,66 @@
+"use client";
+
+import Button from "@/components/Button";
+import { ArrowRight } from "@phosphor-icons/react";
+
+const Hero = () => {
+  return (
+    <div
+      className="section relative flex items-center justify-center bg-cover bg-center"
+      style={{ backgroundImage: "url('/images/cover-2.webp')" }}
+    >
+      <div className="absolute inset-0 bg-black/40 z-0" />
+
+      <div className="container mx-auto px-6 pt-56 pb-24 z-10 lg:pt-80">
+        <div className="flex flex-col items-center max-w-4xl mx-auto">
+          <div className="font-figtree font-medium text-xs tracking-[.12em] uppercase text-lime-300">
+            DRIVE THE FUTURE TODAY
+          </div>
+          <div className="mt-4 font-onest text-white font-medium text-5xl text-center leading-[1.2] md:text-8xl">
+            Electric Power, Bold Performance
+          </div>
+
+          <Button className="mt-8" icon="arrow-right" primary>
+            Get Started
+          </Button>
+        </div>
+
+        <div className="mt-32 flex flex-col items-center justify-between gap-12 lg:flex-row lg:mt-48">
+          <div className="grid grid-cols-2 gap-y-6 lg:grid-flow-col-dense">
+            <div className="text-center border-r px-6 border-white/12 lg:text-left lg:px-8">
+              <div className="font-onest text-2xl font-medium text-white">
+                370 miles
+              </div>
+              <div className="mt-2 font-figtree text-sm text-white">Range</div>
+            </div>
+
+            <div className="text-center px-6 lg:text-left lg:px-8">
+              <div className="font-onest text-2xl font-medium text-white">
+                155 mph
+              </div>
+              <div className="mt-2 font-figtree text-sm text-white">
+                Top Speed
+              </div>
+            </div>
+
+            <div className="col-span-2 text-center border-t pt-6 border-white/12 lg:border-l lg:border-t-0 lg:pt-0 lg:pl-8 lg:text-left">
+              <div className="font-onest text-2xl font-medium text-white">
+                3.2 seconds
+              </div>
+              <div className="mt-2 font-figtree text-sm text-white">
+                0-60 mph
+              </div>
+            </div>
+          </div>
+
+          <div className="font-figtree text-center text-base text-white max-w-sm lg:text-left">
+            Experience the next generation of driving—lightning-fast
+            acceleration, zero emissions, and technology that thinks ahead.
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;
