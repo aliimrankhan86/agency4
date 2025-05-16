@@ -1,12 +1,15 @@
+import Header from "../Header";
+
 type LayoutProps = {
   children: React.ReactNode;
 };
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div>
-      <div>{children}</div>
-    </div>
+    <>
+      <Header />
+      {children}
+    </>
   );
 };
 

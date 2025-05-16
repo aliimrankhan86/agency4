@@ -1,4 +1,4 @@
-import { Link } from "@phosphor-icons/react";
+import Link from "next/link";
 import Icon from "../Icon";
 
 type Props = {
@@ -6,10 +6,10 @@ type Props = {
   icon?: string;
   children?: React.ReactNode;
   primary?: boolean;
-  isBlack?: boolean;
+  secondary?: boolean;
   isGray?: boolean;
   isCircle?: boolean;
-  isStroke?: boolean;
+  stroke?: boolean;
 };
 
 type ButtonProps = Props &
@@ -27,20 +27,20 @@ const Button: React.FC<ButtonProps> = ({
   icon,
   children,
   primary,
-  isBlack,
+  secondary,
   isGray,
   isCircle,
-  isStroke,
+  stroke,
   as = "button",
   ...props
 }) => {
-  const classes = `inline-flex items-center justify-center border rounded-full text-base gap-4 transition-all cursor-pointer disabled:pointer-events-none ${
+  const classes = `group inline-flex items-center justify-center border rounded-full text-base gap-4 transition-all cursor-pointer disabled:pointer-events-none ${
     primary
       ? "py-4 px-6 bg-lime-300 font-figtree text-sm font-medium text-black hover:bg-lime-400 border-0"
       : ""
   } ${
-    isBlack
-      ? "relative px-7 bg-linear-to-b from-[#2C2C2C] to-[#282828] shadow-[inset_2px_0px_8px_2px_rgba(248,248,248,0.20)] border-0 text-t-light fill-t-light !transition-all after:absolute after:inset-0 after:border-[1.5px] after:border-white/20 after:rounded-3xl after:[mask-image:linear-gradient(to_top,transparent_0,black_100%)] hover:shadow-none dark:from-shade-10 dark:to-[#DEDEDE] dark:after:border-white/50 dark:after:shadow-[inset_2px_0px_8px_2px_rgba(24,24,24,0.25)] dark:after:transition-all dark:hover:text-shade-03 dark:hover:fill-shade-01 dark:hover:after:opacity-0"
+    secondary
+      ? "py-4 px-6 bg-transparent font-figtree text-sm font-medium text-white border border-white/12 border-[1px] hover:bg-white hover:text-black"
       : ""
   } ${
     isGray
@@ -51,7 +51,7 @@ const Button: React.FC<ButtonProps> = ({
       ? "w-12 !px-0 rounded-full after:rounded-full hover:shadow-depth"
       : "px-6.5"
   } ${
-    isStroke
+    stroke
       ? "border-s-stroke2 fill-t-secondary text-t-secondary hover:border-s-highlight hover:text-t-primary hover:fill-t-primary disabled:border-transparent"
       : ""
   } ${className || ""}`;
@@ -62,8 +62,13 @@ const Button: React.FC<ButtonProps> = ({
         className={classes}
         {...(props as React.AnchorHTMLAttributes<HTMLAnchorElement>)}
       >
-        {icon && <Icon className="fill-inherit" name={icon} />}
         {children}
+        {icon && (
+          <Icon
+            className="fill-white group-hover:fill-black transition-colors"
+            name={icon}
+          />
+        )}
       </a>
     );
   }
@@ -71,8 +76,13 @@ const Button: React.FC<ButtonProps> = ({
   if (as === "link") {
     return (
       <Link href={(props as { href: string }).href} className={classes}>
-        {icon && <Icon className="fill-inherit" name={icon} />}
         {children}
+        {icon && (
+          <Icon
+            className="fill-white group-hover:fill-black transition-colors"
+            name={icon}
+          />
+        )}
       </Link>
     );
   }

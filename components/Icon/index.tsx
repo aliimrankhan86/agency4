@@ -4,6 +4,10 @@ import {
   FacebookLogo,
   TwitterLogo,
   ThreadsLogo,
+  List,
+  ArrowUpRight,
+  CaretDown,
+  X,
 } from "@phosphor-icons/react";
 
 type IconsType = {
@@ -12,6 +16,10 @@ type IconsType = {
 
 const icons: IconsType = {
   "arrow-right": ArrowRight,
+  "arrow-up-right": ArrowUpRight,
+  list: List,
+  "caret-down": CaretDown,
+  close: X,
   instagram: InstagramLogo,
   facebook: FacebookLogo,
   twitter: TwitterLogo,
@@ -29,7 +37,7 @@ type IconProps = {
 const Icon = ({
   className,
   name,
-  size = 24,
+  size = 20,
   weight = "regular",
   color = "currentColor",
 }: IconProps) => {
@@ -39,8 +47,8 @@ const Icon = ({
 
   return (
     <IconComponent
-      className={`inline-flex size-6 ${className || ""}`}
-      size={name === "chevron" ? 16 : size}
+      className={`inline-flex ${className || ""}`}
+      size={size}
       weight={weight}
       color={color}
     />

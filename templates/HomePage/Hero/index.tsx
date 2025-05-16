@@ -1,15 +1,14 @@
 "use client";
 
 import Button from "@/components/Button";
-import { ArrowRight } from "@phosphor-icons/react";
 
 const Hero = () => {
   return (
     <div
       className="section relative flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/cover-2.webp')" }}
+      style={{ backgroundImage: "url('/images/cover.webp')" }}
     >
-      <div className="absolute inset-0 bg-black/40 z-0" />
+      <div className="absolute inset-0 bg-black/50 z-0" />
 
       <div className="container mx-auto px-6 pt-56 pb-24 z-10 lg:pt-80">
         <div className="flex flex-col items-center max-w-4xl mx-auto">
