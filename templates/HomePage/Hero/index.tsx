@@ -12,7 +12,7 @@ const Hero = () => {
 
   useGSAP(
     () => {
-      gsap.from([".heading", ".button", ".spec", ".description"], {
+      gsap.from(".animate", {
         autoAlpha: 0,
         scale: 0.96,
         duration: 1.2,
@@ -33,13 +33,13 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 pt-56 pb-24 z-10 lg:pt-80">
         <div className="flex flex-col items-center max-w-4xl mx-auto">
-          <div className="heading font-figtree font-medium text-xs tracking-[.12em] uppercase text-lime-300">
+          <div className="animate font-figtree font-medium text-xs tracking-[.12em] uppercase text-lime-300">
             DRIVE THE FUTURE TODAY
           </div>
-          <div className="heading mt-4 font-onest text-white font-medium text-5xl text-center leading-[1.2] md:text-8xl">
+          <div className="animate mt-4 font-onest text-white font-medium text-5xl text-center leading-[1.2] md:text-8xl">
             Electric Power, Bold Performance
           </div>
-          <div className="button mt-8">
+          <div className="animate mt-8">
             <Button icon="arrow-right" primary>
               Get Started
             </Button>
@@ -48,14 +48,14 @@ const Hero = () => {
 
         <div className="mt-32 flex flex-col items-center justify-between gap-12 lg:flex-row lg:mt-48">
           <div className="grid grid-cols-2 gap-y-6 lg:grid-flow-col-dense">
-            <div className="spec text-center border-r px-6 border-white/12 lg:text-left lg:px-8">
+            <div className="animate text-center border-r px-6 border-white/12 lg:text-left lg:px-8">
               <div className="font-onest text-2xl font-medium text-white">
                 370 miles
               </div>
               <div className="mt-2 font-figtree text-sm text-white">Range</div>
             </div>
 
-            <div className="spec text-center px-6 lg:text-left lg:px-8">
+            <div className="animate text-center px-6 lg:text-left lg:px-8">
               <div className="font-onest text-2xl font-medium text-white">
                 155 mph
               </div>
@@ -64,7 +64,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="spec col-span-2 text-center border-t pt-6 border-white/12 lg:border-l lg:border-t-0 lg:pt-0 lg:pl-8 lg:text-left">
+            <div className="animate col-span-2 text-center border-t pt-6 border-white/12 lg:border-l lg:border-t-0 lg:pt-0 lg:pl-8 lg:text-left">
               <div className="font-onest text-2xl font-medium text-white">
                 3.2 seconds
               </div>
@@ -74,7 +74,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="description font-figtree text-center text-base text-white max-w-sm lg:text-left">
+          <div className="animate font-figtree text-center text-base text-white max-w-sm lg:text-left">
             Experience the next generation of driving—lightning-fast
             acceleration, zero emissions, and technology that thinks ahead.
           </div>
