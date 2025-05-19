@@ -157,10 +157,10 @@ const Header = () => {
           </Popover>
 
           <Link
-            href="/contact"
+            href="/news"
             className="font-figtree font-medium text-sm text-white opacity-80 hover:opacity-100 transition-opacity"
           >
-            Contact
+            News
           </Link>
         </PopoverGroup>
 
@@ -255,6 +255,13 @@ const Header = () => {
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
+
+                <Link
+                  href="/news"
+                  className="block py-2 font-figtree font-semibold text-lg text-neutral-900"
+                >
+                  News
+                </Link>
               </div>
 
               <div className="py-6">
