@@ -93,7 +93,7 @@ const About = () => {
               <dt className="font-figtree text-xs text-neutral-500 uppercase">
                 {item.label}
               </dt>
-              <dt className="mt-2 font-onest text-lg font-medium text-neutral-950">
+              <dt className="mt-2 font-onest text-2xl font-medium text-neutral-950">
                 {item.title}
               </dt>
 
