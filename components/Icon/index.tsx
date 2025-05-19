@@ -10,6 +10,7 @@ import {
   ArrowUpRight,
   CaretDown,
   X,
+  Play,
 } from "@phosphor-icons/react";
 
 type IconsType = {
@@ -22,6 +23,7 @@ const icons: IconsType = {
   list: List,
   "caret-down": CaretDown,
   close: X,
+  play: Play,
   instagram: InstagramLogo,
   facebook: FacebookLogo,
   twitter: TwitterLogo,
