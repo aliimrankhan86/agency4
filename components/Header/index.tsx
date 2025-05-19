@@ -150,7 +150,7 @@ const Header = () => {
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Button
-            className="border-white/12 text-white"
+            className="border-white/12 text-white hover:border-white"
             as="link"
             href="/contact"
             icon="arrow-up-right"

@@ -52,7 +52,7 @@ const Button: React.FC<ButtonProps> = ({
       : "px-6.5"
   } ${
     stroke
-      ? "py-4 px-6 bg-transparent font-figtree text-sm font-medium text-neutral-950 border border-neutral-100 border-[1px] hover:bg-neutral-100 hover:text-black"
+      ? "py-4 px-6 bg-transparent font-figtree text-sm font-medium text-neutral-950 border border-neutral-200 border-[1px] hover:border-neutral-950"
       : ""
   } ${className || ""}`;
 
@@ -79,7 +79,7 @@ const Button: React.FC<ButtonProps> = ({
         {children}
         {icon && (
           <Icon
-            className="fill-white group-hover:fill-black transition-colors"
+            className="fill-white group-hover:fill-white transition-colors"
             name={icon}
           />
         )}
