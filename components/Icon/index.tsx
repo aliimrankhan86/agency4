@@ -12,6 +12,9 @@ import {
   X,
   Play,
   Star,
+  MapPin,
+  Phone,
+  EnvelopeSimple,
 } from "@phosphor-icons/react";
 
 type IconsType = {
@@ -26,6 +29,9 @@ const icons: IconsType = {
   close: X,
   play: Play,
   star: Star,
+  location: MapPin,
+  phone: Phone,
+  email: EnvelopeSimple,
   instagram: InstagramLogo,
   facebook: FacebookLogo,
   twitter: TwitterLogo,
