@@ -3,10 +3,12 @@
 import Icon from "@/components/Icon";
 import { reviews } from "@/mocks/reviews";
 import Image from "next/image";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import Marquee from "react-fast-marquee";
+import { brands } from "@/mocks/brands";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -103,6 +105,20 @@ const Reviews = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 mx-auto max-w-4xl flex flex-col justify-center text-center lg:mt-20">
+          <div className="animate font-figtree font-medium text-xs tracking-[.12em] uppercase text-neutral-950">
+            TRUSTED BY FORWARD-THINKING COMPANIES
+          </div>
+
+          <Marquee className="mt-12" gradient gradientColor="#F5F5F5" autoFill>
+            {brands.map((item) => (
+              <div className="mr-20 text-neutral-400 hover:text-neutral-950 transition-colors duration-300 ease-in-out">
+                {item}
+              </div>
+            ))}
+          </Marquee>
         </div>
       </div>
     </div>
