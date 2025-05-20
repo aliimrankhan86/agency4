@@ -1,9 +1,14 @@
-const About = () => {
+import Layout from "@/components/Layout";
+import Hero from "./Hero";
+import Intro from "./Intro";
+
+const AboutPage = () => {
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32">
-      <div>Hello</div>
-    </div>
+    <Layout>
+      <Hero />
+      <Intro />
+    </Layout>
   );
 };
 
-export default About;
+export default AboutPage;

@@ -52,7 +52,7 @@ const Faqs = () => {
           </h1>
         </div>
 
-        <div className="mt-12 mx-auto max-w-2xl lg:mt-20">
+        <div className="mt-20 mx-auto max-w-2xl">
           <div className="flex flex-col divide-y divide-neutral-200">
             {faqs.map((item, index) => (
               <div

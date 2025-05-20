@@ -26,12 +26,12 @@ const Hero = () => {
   return (
     <div
       ref={container}
-      className="section relative flex items-center justify-center bg-cover bg-center"
+      className="relative flex items-center justify-center bg-cover bg-center"
       style={{ backgroundImage: "url('/images/cover.webp')" }}
     >
       <div className="absolute inset-0 bg-black/50 z-0" />
 
-      <div className="container mx-auto px-6 pt-56 pb-24 z-10 lg:pt-80">
+      <div className="mx-auto px-6 pt-56 pb-24 z-10 lg:pt-80">
         <div className="flex flex-col items-center max-w-4xl mx-auto">
           <div className="animate font-figtree font-medium text-xs tracking-[.12em] uppercase text-lime-300">
             DRIVE THE FUTURE TODAY
