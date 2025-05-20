@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import Intro from "./Intro";
 import Values from "./Values";
 import Vision from "./Vision";
+import Showcase from "../HomePage/Showcase";
 
 const AboutPage = () => {
   return (
@@ -11,6 +12,7 @@ const AboutPage = () => {
       <Intro />
       <Values />
       <Vision />
+      <Showcase />
     </Layout>
   );
 };
