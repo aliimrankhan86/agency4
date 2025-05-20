@@ -40,7 +40,7 @@ const Reviews = () => {
       className="bg-neutral-100 overflow-hidden py-24 sm:py-32"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-xl text-center">
+        <div className="mx-auto max-w-2xl text-center">
           <div className="animate font-figtree font-medium text-xs tracking-[.12em] uppercase text-neutral-950">
             REVIEWS
           </div>

@@ -7,6 +7,7 @@ import Features from "./Features";
 import Showcase from "./Showcase";
 import Reviews from "./Reviews";
 import News from "./News";
+import Faqs from "./Faqs";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
       <Showcase />
       <Reviews />
       <News />
+      <Faqs />
     </Layout>
   );
 };

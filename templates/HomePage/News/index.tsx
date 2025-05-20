@@ -1,9 +1,38 @@
+"use client";
+
 import { news } from "@/mocks/news";
 import Image from "next/image";
+import { useRef } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import ScrollTrigger from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 const News = () => {
+  const container = useRef<HTMLDivElement>(null);
+
+  useGSAP(
+    () => {
+      gsap.utils.toArray<HTMLElement>(".animate").forEach((el) => {
+        gsap.from(el, {
+          autoAlpha: 0,
+          scale: 0.96,
+          duration: 1.2,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: el,
+            start: "top 85%",
+            toggleActions: "play none none none",
+          },
+        });
+      });
+    },
+    { scope: container },
+  );
+
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32">
+    <div ref={container} className="overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="animate font-figtree font-medium text-xs tracking-[.12em] uppercase text-neutral-950">
           LATEST NEWS
@@ -14,7 +43,7 @@ const News = () => {
 
         <div className="mt-12 grid grid-cols-1 gap-x-8 gap-y-8 lg:mt-20 lg:grid-cols-3">
           {news.map((item) => (
-            <div className="">
+            <div key={item.title} className="animate">
               <div className="relative w-full h-80">
                 <Image
                   src={item.image}
