@@ -10,7 +10,7 @@ import { vehicles } from "@/mocks/vehicles";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
-const Vehicles = () => {
+const Inventory = () => {
   const container = useRef<HTMLDivElement>(null);
 
   useGSAP(
@@ -43,19 +43,13 @@ const Vehicles = () => {
         </h1>
 
         <div className="mt-12 flex flex-col gap-y-8 lg:mt-20">
-          {vehicles.slice(0, 3).map((item) => (
+          {vehicles.map((item) => (
             <Vehicle key={item.name} vehicle={item} />
           ))}
-        </div>
-
-        <div className="mt-12 lg:mt-20">
-          <Button as="link" href="/vehicles" secondary>
-            View All Vehicles
-          </Button>
         </div>
       </div>
     </div>
   );
 };
 
-export default Vehicles;
+export default Inventory;

@@ -26,7 +26,7 @@ const Hero = () => {
     <div
       ref={container}
       className="relative overflow-hidden bg-white h-[600px] py-24 bg-cover bg-center sm:py-32"
-      style={{ backgroundImage: "url('/images/about.webp')" }}
+      style={{ backgroundImage: "url('/images/intro.webp')" }}
     >
       <div className="absolute inset-0 bg-black/50 z-0" />
 

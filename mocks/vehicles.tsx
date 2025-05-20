@@ -29,4 +29,24 @@ export const vehicles = [
     top_speed: "150 mph",
     mph: "4.2 seconds",
   },
+  {
+    image: "/vehicles/IONIQ_9/01.webp",
+    vehicle: "04",
+    name: "2025 IONIQ 9",
+    description:
+      "Dual motors, sport-tuned handling, and 0–60 in under 3 seconds.",
+    range: "340 miles",
+    top_speed: "145 mph",
+    mph: "5.2 seconds",
+  },
+  {
+    image: "/vehicles/2025_SONATA/01.webp",
+    vehicle: "05",
+    name: "2025 SONATA",
+    description:
+      "Dual motors, sport-tuned handling, and 0–60 in under 3 seconds.",
+    range: "370 miles",
+    top_speed: "160 mph",
+    mph: "4.1 seconds",
+  },
 ];
