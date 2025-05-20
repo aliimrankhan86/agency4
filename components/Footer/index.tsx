@@ -35,15 +35,15 @@ const Footer = () => {
             </div>
 
             <div className="flex items-center gap-x-2">
-              {socials.map(({ name, link }) => (
+              {socials.map((item) => (
                 <a
-                  key={name}
-                  href={link}
+                  key={item.name}
+                  href={item.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group w-11 h-11 flex items-center justify-center border border-neutral-700 rounded-full hover:bg-white hover:text-black transition-colors duration-300 ease-in-out"
                 >
-                  <Icon name={name} weight="fill" />
+                  <Icon name={item.name} weight="fill" />
                 </a>
               ))}
             </div>
@@ -58,6 +58,7 @@ const Footer = () => {
               <div className="mt-8 flex flex-col gap-y-4">
                 {quick_links.map((item) => (
                   <Link
+                    key={item.name}
                     href={item.href}
                     className="font-figtree font-medium text-lg text-neutral-400 hover:text-white transition-colors duration-300 ease-in-out"
                   >
