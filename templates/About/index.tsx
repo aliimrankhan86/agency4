@@ -4,6 +4,8 @@ import Intro from "./Intro";
 import Values from "./Values";
 import Vision from "./Vision";
 import Showcase from "../HomePage/Showcase";
+import Team from "./Team";
+import Faqs from "../HomePage/Faqs";
 
 const AboutPage = () => {
   return (
@@ -13,6 +15,8 @@ const AboutPage = () => {
       <Values />
       <Vision />
       <Showcase />
+      <Team />
+      <Faqs />
     </Layout>
   );
 };
