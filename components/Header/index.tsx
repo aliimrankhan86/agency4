@@ -103,7 +103,7 @@ const Header = () => {
                 </Link>
 
                 <Link
-                  href="/vehicles/vehicle-details"
+                  href="/vehicles/2025-ioniq-5"
                   className="block gap-x-6 rounded-lg p-4 font-figtree text-sm font-medium text-gray-900 hover:bg-neutral-100 transition-colors"
                 >
                   Vehicle Details

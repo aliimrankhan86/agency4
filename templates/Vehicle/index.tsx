@@ -19,7 +19,7 @@ type VehiclePageProps = {
 const VehiclePage = ({ vehicle }: VehiclePageProps) => {
   return (
     <Layout>
-      <Hero vehicle={vehicle} />
+      <Hero />
     </Layout>
   );
 };
