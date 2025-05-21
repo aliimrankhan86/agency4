@@ -6,6 +6,8 @@ import { faqs } from "@/mocks/faqs";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import Marquee from "react-fast-marquee";
+import { brands } from "@/mocks/brands";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -98,6 +100,22 @@ const Faqs = ({ className, section }: FaqsProps) => {
             ))}
           </div>
         </div>
+
+        {section.title === "Ownership & Support" && (
+          <div className="mt-12 mx-auto max-w-4xl flex flex-col justify-center text-center lg:mt-20">
+            <div className="animate font-figtree font-medium text-xs tracking-[.12em] uppercase text-neutral-950">
+              TRUSTED BY FORWARD-THINKING COMPANIES
+            </div>
+
+            <Marquee className="mt-12" gradient gradientColor="white" autoFill>
+              {brands.map((item) => (
+                <div className="animate mr-20 text-neutral-400 hover:text-neutral-950 transition-colors duration-300 ease-in-out">
+                  {item}
+                </div>
+              ))}
+            </Marquee>
+          </div>
+        )}
       </div>
     </div>
   );
