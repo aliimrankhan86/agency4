@@ -36,7 +36,7 @@ const Hero = () => {
           <div className="animate font-figtree font-medium text-xs tracking-[.12em] uppercase text-lime-300">
             DRIVE THE FUTURE TODAY
           </div>
-          <div className="animate mt-4 font-onest text-white font-medium text-5xl text-center leading-[1.2] md:text-8xl">
+          <div className="animate mt-4 px-2 font-onest text-white font-medium text-5xl text-center leading-[1.2] md:text-8xl">
             Experience the Quiet Revolution
           </div>
           <div className="mt-8 w-full flex items-center justify-center flex-col gap-x-4 gap-y-4 lg:flex-row">
