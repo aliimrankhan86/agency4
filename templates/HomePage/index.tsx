@@ -8,6 +8,7 @@ import Showcase from "./Showcase";
 import Reviews from "./Reviews";
 import News from "./News";
 import Faqs from "./Faqs";
+import { faqs } from "@/mocks/faqs";
 
 const HomePage = () => {
   return (
@@ -20,7 +21,7 @@ const HomePage = () => {
       <Showcase />
       <Reviews />
       <News />
-      <Faqs />
+      <Faqs section={faqs[0]} />
     </Layout>
   );
 };

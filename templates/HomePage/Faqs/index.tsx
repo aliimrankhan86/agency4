@@ -9,7 +9,20 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
-const Faqs = () => {
+type FaqItem = {
+  question: string;
+  answer: string;
+};
+
+type FaqsProps = {
+  className?: string;
+  section: {
+    title: string;
+    items: FaqItem[];
+  };
+};
+
+const Faqs = ({ className, section }: FaqsProps) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const toggleFaq = (index: any) => {
@@ -40,7 +53,7 @@ const Faqs = () => {
   return (
     <div
       ref={container}
-      className="overflow-hidden bg-neutral-100 py-24 sm:py-32"
+      className={`overflow-hidden bg-neutral-100 py-24 sm:py-32 ${className}`}
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
@@ -48,16 +61,16 @@ const Faqs = () => {
             FAQ’S
           </div>
           <h1 className="animate mt-4 font-onest text-5xl font-medium leading-[1.2] text-neutral-950 lg:text-7xl">
-            Got questions? We’ve got answers
+            {section.title}
           </h1>
         </div>
 
         <div className="mt-20 mx-auto max-w-2xl">
           <div className="flex flex-col divide-y divide-neutral-200">
-            {faqs.map((item, index) => (
+            {section.items.map((item, index) => (
               <div
                 key={item.question}
-                className={`animate flex flex-col ${index !== 0 ? "pt-8" : ""} ${index !== faqs.length - 1 ? "pb-8" : ""}`}
+                className={`animate flex flex-col ${index !== 0 ? "pt-8" : ""} ${index !== section.items.length - 1 ? "pb-8" : ""}`}
               >
                 <button
                   onClick={() => toggleFaq(index)}
