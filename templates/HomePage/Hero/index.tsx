@@ -37,12 +37,23 @@ const Hero = () => {
             DRIVE THE FUTURE TODAY
           </div>
           <div className="animate mt-4 font-onest text-white font-medium text-5xl text-center leading-[1.2] md:text-8xl">
-            Electric Power, Bold Performance
+            Experience the Quiet Revolution
           </div>
-          <div className="animate mt-8">
-            <Button icon="arrow-right" primary>
-              Get Started
-            </Button>
+          <div className="mt-8 w-full flex items-center justify-center flex-col gap-x-4 gap-y-4 lg:flex-row">
+            <div className="animate w-full lg:w-auto">
+              <Button primary className="w-full">
+                Explore Vehicles
+              </Button>
+            </div>
+
+            <div className="animate w-full lg:w-auto">
+              <Button
+                stroke
+                className="w-full text-white border-white/12 hover:border-white"
+              >
+                Book a Test Drive
+              </Button>
+            </div>
           </div>
         </div>
 
