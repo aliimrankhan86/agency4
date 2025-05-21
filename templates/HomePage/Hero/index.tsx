@@ -41,13 +41,15 @@ const Hero = () => {
           </div>
           <div className="mt-8 w-full flex items-center justify-center flex-col gap-x-4 gap-y-4 lg:flex-row">
             <div className="animate w-full lg:w-auto">
-              <Button primary className="w-full">
+              <Button as="link" href="/vehicles" primary className="w-full">
                 Explore Vehicles
               </Button>
             </div>
 
             <div className="animate w-full lg:w-auto">
               <Button
+                as="link"
+                href="/contact"
                 stroke
                 className="w-full text-white border-white/12 hover:border-white"
               >
