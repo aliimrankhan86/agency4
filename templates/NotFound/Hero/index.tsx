@@ -32,7 +32,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 z-0" />
 
       <div className="mx-auto max-w-7xl w-full px-6 pt-56 pb-24 z-10 lg:pt-80">
-        <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
+        <div className="flex flex-col items-center text-center max-w-lg mx-auto">
           <div className="animate font-figtree font-medium text-xs tracking-[.12em] uppercase text-lime-300">
             ERROR
           </div>
@@ -44,7 +44,7 @@ const Hero = () => {
             Oops! Page Not Found
           </div>
 
-          <div className="animate mt-4 max-w-lg font-figtree text-base text-white">
+          <div className="animate mt-4 font-figtree text-base text-white">
             We couldn't find the page you were looking for. But don't worry—our
             journey is just getting started!
           </div>
