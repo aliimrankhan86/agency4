@@ -60,7 +60,7 @@ const About = () => {
             </p>
 
             <div className="animate mt-8">
-              <Button secondary icon="arrow-right">
+              <Button as="link" href="/about" secondary icon="arrow-right">
                 Learn More
               </Button>
             </div>

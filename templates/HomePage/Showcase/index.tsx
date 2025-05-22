@@ -58,14 +58,16 @@ const Showcase = () => {
             </p>
 
             <div className="mt-8 flex gap-x-2">
-              <Button className="animate" primary icon="arrow-right">
-                Get Started
+              <Button as="link" href="/vehicles" className="animate" primary>
+                Explore Vehicles
               </Button>
               <Button
+                as="link"
+                href="/contact"
                 className="animate text-white border-white/12 hover:border-white"
                 stroke
               >
-                Get In Touch
+                Book a Test Drive
               </Button>
             </div>
           </div>

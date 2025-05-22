@@ -7,9 +7,8 @@ type Props = {
   children?: React.ReactNode;
   primary?: boolean;
   secondary?: boolean;
-  isGray?: boolean;
-  isCircle?: boolean;
   stroke?: boolean;
+  ghost?: boolean;
 };
 
 type ButtonProps = Props &
@@ -28,8 +27,7 @@ const Button: React.FC<ButtonProps> = ({
   children,
   primary,
   secondary,
-  isGray,
-  isCircle,
+  ghost,
   stroke,
   as = "button",
   ...props
@@ -43,17 +41,13 @@ const Button: React.FC<ButtonProps> = ({
       ? "py-4 px-6 bg-neutral-100 font-figtree text-sm font-medium text-neutral-950 border border-white/12 border-[1px] hover:bg-neutral-200 hover:text-black"
       : ""
   } ${
-    isGray
-      ? "relative bg-b-surface1 border-transparent text-t-secondary fill-t-secondary hover:text-t-primary hover:fill-t-primary hover:shadow-depth dark:bg-shade-04"
-      : ""
-  } ${
-    isCircle
-      ? "w-12 !px-0 rounded-full after:rounded-full hover:shadow-depth"
-      : "px-6.5"
-  } ${
     stroke
       ? "py-4 px-6 bg-transparent font-figtree text-sm font-medium text-neutral-950 border border-neutral-200 border-[1px] hover:border-neutral-950"
       : ""
+  } ${
+    ghost
+      ? "py-4 px-6 bg-transparent font-figtree text-sm font-medium text-neutral-950 border border-neutral-200 border-[1px] hover:border-neutral-950"
+      : "px-6.5"
   } ${className || ""}`;
 
   if (as === "a") {
@@ -63,12 +57,7 @@ const Button: React.FC<ButtonProps> = ({
         {...(props as React.AnchorHTMLAttributes<HTMLAnchorElement>)}
       >
         {children}
-        {icon && (
-          <Icon
-            className="fill-white group-hover:fill-black transition-colors"
-            name={icon}
-          />
-        )}
+        {icon && <Icon className="fill-inherit" name={icon} />}
       </a>
     );
   }
@@ -77,12 +66,7 @@ const Button: React.FC<ButtonProps> = ({
     return (
       <Link href={(props as { href: string }).href} className={classes}>
         {children}
-        {icon && (
-          <Icon
-            className="fill-white group-hover:fill-white transition-colors"
-            name={icon}
-          />
-        )}
+        {icon && <Icon className="fill-inherit" name={icon} />}
       </Link>
     );
   }
