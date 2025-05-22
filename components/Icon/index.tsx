@@ -22,6 +22,7 @@ import {
   Globe,
   Rocket,
   Check,
+  DotOutline,
 } from "@phosphor-icons/react";
 
 type IconsType = {
@@ -46,6 +47,7 @@ const icons: IconsType = {
   globe: Globe,
   rocket: Rocket,
   check: Check,
+  "dot-outline": DotOutline,
   instagram: InstagramLogo,
   facebook: FacebookLogo,
   twitter: TwitterLogo,

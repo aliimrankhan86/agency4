@@ -9,8 +9,11 @@ import Reviews from "./Reviews";
 import News from "./News";
 import Faqs from "./Faqs";
 import { faqs } from "@/mocks/faqs";
+import { getSortedArticles } from "@/lib/posts";
 
 const HomePage = () => {
+  const news = getSortedArticles();
+
   return (
     <Layout>
       <Hero />
@@ -20,7 +23,7 @@ const HomePage = () => {
       <Features />
       <Showcase />
       <Reviews />
-      <News />
+      <News news={news.slice(0, 3)} />
       <Faqs section={faqs[0]} />
     </Layout>
   );

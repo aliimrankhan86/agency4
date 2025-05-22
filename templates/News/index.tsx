@@ -1,12 +1,15 @@
 import Layout from "@/components/Layout";
 import Hero from "./Hero";
-import News from "../HomePage/News";
+import Articles from "./Articles";
+import { getSortedArticles } from "@/lib/posts";
 
 const NewsPage = () => {
+  const news = getSortedArticles();
+
   return (
     <Layout>
       <Hero />
-      <News />
+      <Articles news={news} />
     </Layout>
   );
 };

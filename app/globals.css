@@ -24,3 +24,57 @@ body {
     color: var(--foreground);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer components {
+    .prose h1 {
+        @apply font-onest font-medium text-4xl text-neutral-950 mb-6 mt-12;
+    }
+
+    .prose h2 {
+        @apply font-onest font-medium text-3xl text-neutral-950 mb-5 mt-10;
+    }
+
+    .prose h3 {
+        @apply font-onest font-medium text-2xl text-neutral-900 mb-4 mt-8;
+    }
+
+    .prose p {
+        @apply font-figtree text-base text-neutral-700 leading-relaxed mb-6;
+    }
+
+    .prose img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    @media (min-width: 768px) {
+        .prose img {
+            height: 500px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .prose img {
+            height: 600px;
+        }
+    }
+    .prose ul,
+    .prose ol {
+        @apply pl-6 mb-6;
+    }
+
+    .prose li {
+        @apply mb-2;
+    }
+
+    .prose strong {
+        @apply font-figtree font-semibold text-neutral-900;
+    }
+
+    .prose blockquote {
+        @apply border-l-4 border-neutral-300 pl-4 font-figtree italic text-neutral-600 my-6;
+    }
+}
