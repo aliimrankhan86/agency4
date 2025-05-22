@@ -54,7 +54,7 @@ const ContactForm = () => {
               Get In Touch
             </h1>
 
-            <div className="mt-12 w-full h-px bg-neutral-200" />
+            <div className="animate mt-12 w-full h-px bg-neutral-200" />
 
             <div className="mt-12 flex flex-col items-start justify-between gap-8 lg:flex-row lg:items-center">
               <div className="animate">
@@ -94,7 +94,7 @@ const ContactForm = () => {
               </div>
             </div>
 
-            <div className="mt-12 w-full h-px bg-neutral-200" />
+            <div className="animate mt-12 w-full h-px bg-neutral-200" />
 
             <p className="animate mt-12 font-onest text-2xl text-neutral-950">
               Send Us a Message
