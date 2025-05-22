@@ -12,7 +12,7 @@ const Markdown = ({ article }: MarkdownProps) => {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <article
           className="prose prose-lg prose-neutral max-w-none"
-          dangerouslySetInnerHTML={{ __html: article.contentHtml }}
+          dangerouslySetInnerHTML={{ __html: article.contentHtml ?? "" }}
         />
 
         <div className="mt-20 bg-neutral-200 w-full h-px" />
