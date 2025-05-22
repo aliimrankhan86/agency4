@@ -50,9 +50,9 @@ export const members = [
     ],
   },
   {
-    image: "/images/team/mark-lee.png",
-    name: "Mark Lee",
-    position: "Head of Design",
+    image: "/images/team/elena-petrova.png",
+    name: "Elena Petrova",
+    position: "Director of Sustainability",
     socials: [
       { name: "facebook", url: "#" },
       { name: "twitter", url: "#" },
