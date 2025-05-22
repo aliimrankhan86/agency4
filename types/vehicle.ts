@@ -1,5 +1,5 @@
 export interface Vehicle {
-  image: string;
+  images: string[];
   vehicle: string;
   name: string;
   description: string;

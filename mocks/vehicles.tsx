@@ -1,6 +1,12 @@
 export const vehicles = [
   {
-    image: "/vehicles/IONIQ_5/01.webp",
+    images: [
+      "/vehicles/IONIQ_5/01.webp",
+      "/images/interior.webp",
+      "/images/shift.webp",
+      "/images/driver-assist-ai.webp",
+      "/images/station.webp",
+    ],
     vehicle: "01",
     name: "2025 IONIQ 5",
     description:
@@ -11,7 +17,13 @@ export const vehicles = [
     slug: "2025-ioniq-5",
   },
   {
-    image: "/vehicles/KONA_ELECTRIC/01.webp",
+    images: [
+      "/vehicles/KONA_ELECTRIC/01.webp",
+      "/images/interior.webp",
+      "/images/shift.webp",
+      "/images/driver-assist-ai.webp",
+      "/images/station.webp",
+    ],
     vehicle: "02",
     name: "2025 KONA Electric",
     description:
@@ -22,7 +34,13 @@ export const vehicles = [
     slug: "2025-kona-electric",
   },
   {
-    image: "/vehicles/SANTA_FE_Hybrid/01.webp",
+    images: [
+      "/vehicles/SANTA_FE_Hybrid/01.webp",
+      "/images/interior.webp",
+      "/images/shift.webp",
+      "/images/driver-assist-ai.webp",
+      "/images/station.webp",
+    ],
     vehicle: "03",
     name: "SANTA FE Hybrid",
     description:
@@ -33,7 +51,13 @@ export const vehicles = [
     slug: "santa-fe-hybrid",
   },
   {
-    image: "/vehicles/IONIQ_9/01.webp",
+    images: [
+      "/vehicles/IONIQ_9/01.webp",
+      "/images/interior.webp",
+      "/images/shift.webp",
+      "/images/driver-assist-ai.webp",
+      "/images/station.webp",
+    ],
     vehicle: "04",
     name: "2025 IONIQ 9",
     description:
@@ -44,7 +68,13 @@ export const vehicles = [
     slug: "2025-ioniq-9",
   },
   {
-    image: "/vehicles/2025_SONATA/01.webp",
+    images: [
+      "/vehicles/2025_SONATA/01.webp",
+      "/images/interior.webp",
+      "/images/shift.webp",
+      "/images/driver-assist-ai.webp",
+      "/images/station.webp",
+    ],
     vehicle: "05",
     name: "2025 SONATA",
     description:

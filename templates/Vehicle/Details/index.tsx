@@ -49,7 +49,7 @@ const Details = ({ vehicle }: DetailsProps) => {
         </div>
 
         <div className="mt-12 flex flex-col gap-y-8 lg:mt-20">
-          <Vehicle vehicle={vehicle} />
+          <Vehicle vehicle={vehicle} detailPage={true} />
         </div>
 
         <div className="mt-12 flex flex-col justify-between gap-12 lg:mt-20 lg:flex-row lg:items-center">
