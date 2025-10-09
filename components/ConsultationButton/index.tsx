@@ -4,7 +4,9 @@ import React from 'react';
 import Button from '../Button';
 import { useConsultation } from '@/contexts/ConsultationContext';
 
-type ConsultationButtonProps = React.ComponentProps<typeof Button>;
+type ConsultationButtonProps = Omit<React.ComponentProps<typeof Button>, 'onClick'> & {
+  onClick?: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+};
 
 const ConsultationButton: React.FC<ConsultationButtonProps> = ({ onClick, ...props }) => {
   const { openConsultationModal } = useConsultation();
