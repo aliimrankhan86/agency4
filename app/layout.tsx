@@ -28,6 +28,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          src="https://assets.calendly.com/assets/external/widget.js"
+          async
+        />
+      </head>
       <body className={`${onest.variable} ${figtree.variable} antialiased`}>
         <LenisProvider>{children}</LenisProvider>
       </body>
