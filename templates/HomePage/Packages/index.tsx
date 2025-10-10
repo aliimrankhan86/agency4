@@ -77,11 +77,11 @@ const Packages = () => {
     <div
       id="packages"
       ref={container}
-      className="overflow-hidden bg-neutral-100 py-24 sm:py-32"
+      className="overflow-hidden bg-neutral-900 py-24 sm:py-32"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h1 className="animate mt-4 font-onest text-5xl font-medium leading-[1.2] text-neutral-950 lg:text-7xl">
+          <h1 className="animate mt-4 font-onest text-5xl font-medium leading-[1.2] text-white lg:text-7xl">
             Three Flexible Plans for Every Business Size
           </h1>
         </div>
@@ -92,21 +92,17 @@ const Packages = () => {
               key={pkg.tier}
               className={`animate p-10 ${
                 pkg.featured
-                  ? "bg-neutral-900 text-white"
-                  : "bg-white text-neutral-950"
+                  ? "bg-blue-500 text-white"
+                  : "bg-neutral-800 text-white"
               }`}
             >
               <div className="mb-2">
-                <div
-                  className={`font-onest font-medium text-2xl ${
-                    pkg.featured ? "text-white" : "text-neutral-950"
-                  }`}
-                >
+                <div className="font-onest font-medium text-2xl text-white">
                   {pkg.tier}
                 </div>
                 <div
                   className={`font-figtree text-sm ${
-                    pkg.featured ? "text-blue-500" : "text-neutral-500"
+                    pkg.featured ? "text-blue-100" : "text-neutral-400"
                   } uppercase`}
                 >
                   {pkg.subtitle}
@@ -114,16 +110,12 @@ const Packages = () => {
               </div>
 
               <div className="mt-8 flex items-baseline gap-2">
-                <div
-                  className={`font-onest font-medium text-4xl ${
-                    pkg.featured ? "text-white" : "text-neutral-950"
-                  }`}
-                >
+                <div className="font-onest font-medium text-4xl text-white">
                   {pkg.monthly}
                 </div>
                 <div
                   className={`font-figtree text-sm ${
-                    pkg.featured ? "text-blue-500" : "text-neutral-500"
+                    pkg.featured ? "text-blue-100" : "text-neutral-400"
                   }`}
                 >
                   / MONTH
@@ -132,7 +124,7 @@ const Packages = () => {
 
               <div
                 className={`mt-4 font-figtree text-base ${
-                  pkg.featured ? "text-neutral-400" : "text-neutral-500"
+                  pkg.featured ? "text-blue-100" : "text-neutral-400"
                 }`}
               >
                 Setup: {pkg.setup}
@@ -140,15 +132,11 @@ const Packages = () => {
 
               <div
                 className={`mt-8 w-full h-px ${
-                  pkg.featured ? "bg-neutral-800" : "bg-neutral-200"
+                  pkg.featured ? "bg-blue-400" : "bg-neutral-700"
                 }`}
               />
 
-              <div
-                className={`mt-8 font-figtree text-sm ${
-                  pkg.featured ? "text-white" : "text-neutral-950"
-                } uppercase`}
-              >
+              <div className="mt-8 font-figtree text-sm text-white uppercase">
                 Includes:
               </div>
 
@@ -158,13 +146,13 @@ const Packages = () => {
                     <Icon
                       name="check"
                       className={`flex-shrink-0 ${
-                        pkg.featured ? "text-blue-500" : "text-neutral-950"
+                        pkg.featured ? "text-blue-100" : "text-blue-500"
                       }`}
                       size={20}
                     />
                     <div
                       className={`font-figtree text-sm ${
-                        pkg.featured ? "text-neutral-300" : "text-neutral-600"
+                        pkg.featured ? "text-blue-100" : "text-neutral-300"
                       }`}
                     >
                       {feature}
@@ -175,8 +163,7 @@ const Packages = () => {
 
               <div className="mt-8">
                 <ConsultationButton
-                  primary={pkg.featured}
-                  secondary={!pkg.featured}
+                  primary={true}
                   className="w-full"
                 >
                   Book a Demo
