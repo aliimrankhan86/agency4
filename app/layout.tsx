@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Onest, Figtree } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import LenisProvider from "./providers/LenisProvider";
 
@@ -28,14 +29,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <script
-          src="https://assets.calendly.com/assets/external/widget.js"
-          async
-        />
-      </head>
       <body className={`${onest.variable} ${figtree.variable} antialiased`}>
         <LenisProvider>{children}</LenisProvider>
+        <Script
+          src="https://assets.calendly.com/assets/external/widget.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
