@@ -26,12 +26,12 @@ const FloatingScheduleButton = () => {
       
       if (!success) {
         // Fallback: redirect to Calendly
-        window.open('https://calendly.com/your-username', '_blank');
+        window.open('https://calendly.com/demo-agency4/consultation', '_blank');
       }
     } catch (error) {
       console.error('Error opening Calendly:', error);
       // Fallback: redirect to Calendly
-      window.open('https://calendly.com/your-username', '_blank');
+      window.open('https://calendly.com/demo-agency4/consultation', '_blank');
     }
   };
 

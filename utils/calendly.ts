@@ -18,7 +18,7 @@ export interface CalendlyUserData {
 // Calendly configuration
 export const CALENDLY_CONFIG = {
   // TODO: Replace with your actual Calendly URL
-  CALENDLY_URL: 'https://calendly.com/your-username',
+  CALENDLY_URL: 'https://calendly.com/demo-agency4/consultation',
   
   // Optional: Pre-fill user data in Calendly
   PREFILL_DATA: true,
