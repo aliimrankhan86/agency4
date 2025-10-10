@@ -163,14 +163,14 @@ const LoginPrompt = ({ isOpen, onClose, initialMode = "signin" }: LoginPromptPro
                       placeholder="First name"
                       value={firstName}
                       onChange={(e) => setFirstName(e.target.value)}
-                      className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-lime-500"
+                      className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-blue-700"
                     />
                     <input
                       type="text"
                       placeholder="Last name"
                       value={lastName}
                       onChange={(e) => setLastName(e.target.value)}
-                      className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-lime-500"
+                      className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-blue-700"
                     />
                   </div>
                 </>
@@ -182,7 +182,7 @@ const LoginPrompt = ({ isOpen, onClose, initialMode = "signin" }: LoginPromptPro
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-lime-500"
+                className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-blue-700"
               />
 
               <div className="relative">
@@ -192,7 +192,7 @@ const LoginPrompt = ({ isOpen, onClose, initialMode = "signin" }: LoginPromptPro
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
-                  className="w-full px-4 py-3 pr-12 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-lime-500"
+                  className="w-full px-4 py-3 pr-12 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-blue-700"
                 />
                 <button
                   type="button"
@@ -212,7 +212,7 @@ const LoginPrompt = ({ isOpen, onClose, initialMode = "signin" }: LoginPromptPro
                     value={confirmPassword}
                     onChange={(e) => setConfirmPassword(e.target.value)}
                     required
-                    className="w-full px-4 py-3 pr-12 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-lime-500"
+                    className="w-full px-4 py-3 pr-12 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-blue-700"
                   />
                   <button
                     type="button"
@@ -236,7 +236,7 @@ const LoginPrompt = ({ isOpen, onClose, initialMode = "signin" }: LoginPromptPro
                     <button 
                       type="button"
                       onClick={switchMode}
-                      className="text-lime-600 font-medium hover:underline"
+                      className="text-blue-800 font-medium hover:underline"
                     >
                       Sign up
                     </button>
@@ -247,7 +247,7 @@ const LoginPrompt = ({ isOpen, onClose, initialMode = "signin" }: LoginPromptPro
                     <button 
                       type="button"
                       onClick={switchMode}
-                      className="text-lime-600 font-medium hover:underline"
+                      className="text-blue-800 font-medium hover:underline"
                     >
                       Sign in here
                     </button>

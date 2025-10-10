@@ -116,7 +116,7 @@ const ConsultationModal = ({ isOpen, onClose }: ConsultationModalProps) => {
                       value={formData.firstName}
                       onChange={handleInputChange}
                       required
-                      className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-lime-500"
+                      className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-blue-700"
                       placeholder="Enter your first name"
                     />
                   </div>
@@ -131,7 +131,7 @@ const ConsultationModal = ({ isOpen, onClose }: ConsultationModalProps) => {
                       value={formData.lastName}
                       onChange={handleInputChange}
                       required
-                      className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-lime-500"
+                      className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-blue-700"
                       placeholder="Enter your last name"
                     />
                   </div>
@@ -149,7 +149,7 @@ const ConsultationModal = ({ isOpen, onClose }: ConsultationModalProps) => {
                       value={formData.email}
                       onChange={handleInputChange}
                       required
-                      className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-lime-500"
+                      className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-blue-700"
                       placeholder="Enter your email address"
                     />
                   </div>
@@ -163,7 +163,7 @@ const ConsultationModal = ({ isOpen, onClose }: ConsultationModalProps) => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-lime-500"
+                      className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-blue-700"
                       placeholder="Enter your phone number"
                     />
                   </div>
@@ -179,7 +179,7 @@ const ConsultationModal = ({ isOpen, onClose }: ConsultationModalProps) => {
                     name="company"
                     value={formData.company}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-lime-500"
+                    className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-blue-700"
                     placeholder="Enter your company name"
                   />
                 </div>
@@ -195,7 +195,7 @@ const ConsultationModal = ({ isOpen, onClose }: ConsultationModalProps) => {
                     onChange={handleInputChange}
                     required
                     rows={4}
-                    className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-lime-500 resize-none"
+                    className="w-full px-4 py-3 border border-neutral-200 rounded-lg font-figtree text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:border-blue-700 resize-none"
                     placeholder="Describe your current challenges and how AI could help your business..."
                   />
                 </div>
@@ -212,8 +212,8 @@ const ConsultationModal = ({ isOpen, onClose }: ConsultationModalProps) => {
             </div>
           ) : (
             <div className="text-center">
-              <div className="w-16 h-16 bg-lime-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Icon name="check" size={32} color="text-lime-600" />
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Icon name="check" size={32} color="text-blue-800" />
               </div>
               <h2 className="font-onest text-3xl font-medium text-neutral-950 mb-4">
                 Consultation Requested!

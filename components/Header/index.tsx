@@ -45,7 +45,7 @@ const Header = () => {
   useEffect(() => {
     // Handle deep linking with hash on page load
     const hash = window.location.hash;
-    if (hash && ['#testimonials', '#faq', '#contact'].includes(hash)) {
+    if (hash && ['#use-cases', '#packages', '#testimonials', '#faq', '#contact'].includes(hash)) {
       setTimeout(() => {
         const element = document.querySelector(hash);
         if (element) {
@@ -107,6 +107,20 @@ const Header = () => {
 
         <PopoverGroup className="hidden lg:flex lg:items-center lg:gap-x-12">
           <button
+            onClick={() => scrollToSection('use-cases')}
+            className="font-figtree font-medium text-sm text-white opacity-80 hover:opacity-100 transition-opacity"
+          >
+            Use Cases
+          </button>
+
+          <button
+            onClick={() => scrollToSection('packages')}
+            className="font-figtree font-medium text-sm text-white opacity-80 hover:opacity-100 transition-opacity"
+          >
+            Packages
+          </button>
+
+          <button
             onClick={() => scrollToSection('testimonials')}
             className="font-figtree font-medium text-sm text-white opacity-80 hover:opacity-100 transition-opacity"
           >
@@ -130,7 +144,7 @@ const Header = () => {
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <Button
-                className="fill-black border-lime-300 text-black hover:border-lime-400"
+                className="fill-white border-blue-500 text-white hover:border-blue-600"
                 onClick={handleLoginGatedClick}
                 icon="arrow-up-right"
                 primary
@@ -160,6 +174,20 @@ const Header = () => {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-neutral-500/10">
               <div className="space-y-2 py-6">
+                <button
+                  onClick={() => scrollToSection('use-cases')}
+                  className="block py-2 font-figtree font-semibold text-lg text-neutral-900 w-full text-left"
+                >
+                  Use Cases
+                </button>
+
+                <button
+                  onClick={() => scrollToSection('packages')}
+                  className="block py-2 font-figtree font-semibold text-lg text-neutral-900 w-full text-left"
+                >
+                  Packages
+                </button>
+
                 <button
                   onClick={() => scrollToSection('testimonials')}
                   className="block py-2 font-figtree font-semibold text-lg text-neutral-900 w-full text-left"

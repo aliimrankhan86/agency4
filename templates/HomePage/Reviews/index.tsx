@@ -51,12 +51,222 @@ const Reviews = ({
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h1 className="animate mt-4  font-onest text-5xl font-medium leading-[1.2] text-neutral-950 lg:text-7xl">
-            What Clients Are Saying
+          <h1 className="animate mt-4 font-onest text-5xl font-medium leading-[1.2] text-neutral-950 lg:text-7xl">
+            Why Businesses Trust Agency4.ai
           </h1>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-x-8 gap-y-8 lg:mt-20 lg:grid-cols-3">
+        <div className="mt-12 grid grid-cols-1 gap-8 lg:mt-20 lg:grid-cols-2">
+          <div className="animate bg-white p-8 rounded-2xl">
+            <Icon name="microphone" className="text-neutral-950 mb-4" size={32} />
+            <h3 className="font-onest text-xl font-medium text-neutral-950 mb-3">
+              Human-sounding conversations, not robotic IVRs
+            </h3>
+            <p className="font-figtree text-base text-neutral-600">
+              Our AI voices are indistinguishable from real people, creating authentic connections that customers appreciate.
+            </p>
+          </div>
+
+          <div className="animate bg-white p-8 rounded-2xl">
+            <Icon name="flow-arrow" className="text-neutral-950 mb-4" size={32} />
+            <h3 className="font-onest text-xl font-medium text-neutral-950 mb-3">
+              End-to-end automation from call to CRM
+            </h3>
+            <p className="font-figtree text-base text-neutral-600">
+              Every interaction triggers the right actions, updates, and follow-ups automatically across your entire tech stack.
+            </p>
+          </div>
+
+          <div className="animate bg-white p-8 rounded-2xl">
+            <Icon name="shield-check" className="text-neutral-950 mb-4" size={32} />
+            <h3 className="font-onest text-xl font-medium text-neutral-950 mb-3">
+              Secure, compliant, and auditable processes
+            </h3>
+            <p className="font-figtree text-base text-neutral-600">
+              Enterprise-grade security with full compliance to GDPR, SOC 2, and industry regulations.
+            </p>
+          </div>
+
+          <div className="animate bg-white p-8 rounded-2xl">
+            <Icon name="chart-line" className="text-neutral-950 mb-4" size={32} />
+            <h3 className="font-onest text-xl font-medium text-neutral-950 mb-3">
+              Transparent ROI, measurable from month one
+            </h3>
+            <p className="font-figtree text-base text-neutral-600">
+              Track exactly how much time and money you save with detailed analytics and performance metrics.
+            </p>
+          </div>
+
+          <div className="animate bg-white p-8 rounded-2xl lg:col-span-2">
+            <Icon name="handshake" className="text-neutral-950 mb-4" size={32} />
+            <h3 className="font-onest text-xl font-medium text-neutral-950 mb-3">
+              A true strategic partner, not just another software provider
+            </h3>
+            <p className="font-figtree text-base text-neutral-600">
+              We work alongside your team to understand your unique challenges and build solutions that truly fit your business.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-16 lg:mt-24">
+          <div className="animate bg-neutral-900 p-10 rounded-2xl lg:p-16">
+            <div className="font-figtree text-xs text-blue-500 uppercase tracking-wide mb-4">
+              CASE STUDY
+            </div>
+            <h2 className="font-onest text-3xl font-medium text-white mb-6 lg:text-4xl">
+              Clinic Automation Story
+            </h2>
+            
+            <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 mb-8">
+              <div>
+                <div className="font-figtree text-sm text-blue-500 uppercase mb-2">
+                  Before
+                </div>
+                <p className="font-figtree text-base text-neutral-300">
+                  2 receptionists managed over 100 daily calls manually.
+                </p>
+              </div>
+              <div>
+                <div className="font-figtree text-sm text-blue-500 uppercase mb-2">
+                  After
+                </div>
+                <p className="font-figtree text-base text-neutral-300">
+                  1 AI agent handled 80% of calls automatically.
+                </p>
+              </div>
+            </div>
+
+            <div className="border-t border-neutral-700 pt-8">
+              <div className="font-figtree text-sm text-blue-500 uppercase mb-6">
+                Results (30 days)
+              </div>
+              <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+                <div>
+                  <div className="font-onest text-3xl font-medium text-white">75%</div>
+                  <div className="mt-2 font-figtree text-sm text-neutral-400">Containment rate</div>
+                </div>
+                <div>
+                  <div className="font-onest text-3xl font-medium text-white">£1,200</div>
+                  <div className="mt-2 font-figtree text-sm text-neutral-400">Monthly savings</div>
+                </div>
+                <div>
+                  <div className="font-onest text-3xl font-medium text-white">2×</div>
+                  <div className="mt-2 font-figtree text-sm text-neutral-400">More bookings confirmed</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-16 lg:mt-24">
+          <div className="animate bg-neutral-900 p-10 rounded-2xl lg:p-16">
+            <div className="font-figtree text-xs text-blue-500 uppercase tracking-wide mb-4">
+              CASE STUDY
+            </div>
+            <h2 className="font-onest text-3xl font-medium text-white mb-6 lg:text-4xl">
+              Finance Verification Automation
+            </h2>
+            
+            <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 mb-8">
+              <div>
+                <div className="font-figtree text-sm text-blue-500 uppercase mb-2">
+                  Before
+                </div>
+                <p className="font-figtree text-base text-neutral-300">
+                  Operations team performed manual KYC checks and payment reminders, creating backlogs and delays.
+                </p>
+              </div>
+              <div>
+                <div className="font-figtree text-sm text-blue-500 uppercase mb-2">
+                  After
+                </div>
+                <p className="font-figtree text-base text-neutral-300">
+                  An AI voice agent verifies documents, completes KYC steps, and triggers reminders automatically.
+                </p>
+              </div>
+            </div>
+
+            <div className="border-t border-neutral-700 pt-8">
+              <div className="font-figtree text-sm text-blue-500 uppercase mb-6">
+                Results (30 days)
+              </div>
+              <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+                <div>
+                  <div className="font-onest text-3xl font-medium text-white">60%</div>
+                  <div className="mt-2 font-figtree text-sm text-neutral-400">Fewer manual verification calls</div>
+                </div>
+                <div>
+                  <div className="font-onest text-3xl font-medium text-white">£3,200</div>
+                  <div className="mt-2 font-figtree text-sm text-neutral-400">Monthly savings</div>
+                </div>
+                <div>
+                  <div className="font-onest text-3xl font-medium text-white">40%</div>
+                  <div className="mt-2 font-figtree text-sm text-neutral-400">Faster onboarding completion</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-16 lg:mt-24">
+          <div className="animate bg-neutral-900 p-10 rounded-2xl lg:p-16">
+            <div className="font-figtree text-xs text-blue-500 uppercase tracking-wide mb-4">
+              CASE STUDY
+            </div>
+            <h2 className="font-onest text-3xl font-medium text-white mb-6 lg:text-4xl">
+              Logistics Delivery Orchestration
+            </h2>
+            
+            <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 mb-8">
+              <div>
+                <div className="font-figtree text-sm text-blue-500 uppercase mb-2">
+                  Before
+                </div>
+                <p className="font-figtree text-base text-neutral-300">
+                  Dispatch team handled delivery updates and missed-call follow-ups manually, leading to repeat enquiries.
+                </p>
+              </div>
+              <div>
+                <div className="font-figtree text-sm text-blue-500 uppercase mb-2">
+                  After
+                </div>
+                <p className="font-figtree text-base text-neutral-300">
+                  An AI voice agent sends delivery updates, manages missed-call callbacks, and records outcomes to the CRM.
+                </p>
+              </div>
+            </div>
+
+            <div className="border-t border-neutral-700 pt-8">
+              <div className="font-figtree text-sm text-blue-500 uppercase mb-6">
+                Results (30 days)
+              </div>
+              <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+                <div>
+                  <div className="font-onest text-3xl font-medium text-white">55%</div>
+                  <div className="mt-2 font-figtree text-sm text-neutral-400">Drop in "Where is my order?" calls</div>
+                </div>
+                <div>
+                  <div className="font-onest text-3xl font-medium text-white">£2,600</div>
+                  <div className="mt-2 font-figtree text-sm text-neutral-400">Monthly savings</div>
+                </div>
+                <div>
+                  <div className="font-onest text-3xl font-medium text-white">20%</div>
+                  <div className="mt-2 font-figtree text-sm text-neutral-400">Improvement in on-time deliveries</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-16 lg:mt-24">
+          <div className="mx-auto max-w-2xl text-center mb-12">
+            <h2 className="animate font-onest text-4xl font-medium leading-[1.2] text-neutral-950 lg:text-5xl">
+              What Clients Are Saying
+            </h2>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 gap-x-8 gap-y-8 lg:grid-cols-3">
           {reviews.map((item) => (
             <div key={item.title} className={`animate p-10 ${cardBackground}`}>
               <div className="flex flex-col divide-y divide-neutral-200">

@@ -39,14 +39,14 @@ const Hero = () => {
           <div className="mt-4 flex items-center gap-x-4">
             <Link
               href="/"
-              className="animate font-figtree font-medium text-sm tracking-[.12em] uppercase text-lime-300"
+              className="animate font-figtree font-medium text-sm tracking-[.12em] uppercase text-blue-500"
             >
               HOME
             </Link>
             <div className="animate text-white">
               <Icon name="arrow-right" />
             </div>
-            <div className="animate font-figtree font-medium text-sm tracking-[.12em] uppercase text-lime-300">
+            <div className="animate font-figtree font-medium text-sm tracking-[.12em] uppercase text-blue-500">
               ABOUT US
             </div>
           </div>

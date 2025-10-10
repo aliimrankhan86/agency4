@@ -25,7 +25,7 @@ const Footer = () => {
 
             <div className="mt-8 flex flex-col gap-6">
               <div className="flex gap-4">
-                <Icon name="location" className="fill-lime-300" />
+                <Icon name="location" className="fill-blue-500" />
                 <div>
                   <div className="font-figtree font-medium text-base text-white">
                     Address
@@ -37,7 +37,7 @@ const Footer = () => {
               </div>
 
               <div className="flex gap-4">
-                <Icon name="phone" className="fill-lime-300" />
+                <Icon name="phone" className="fill-blue-500" />
                 <div>
                   <div className="font-figtree font-medium text-base text-white">
                     Phone Number
@@ -49,7 +49,7 @@ const Footer = () => {
               </div>
 
               <div className="flex gap-4">
-                <Icon name="email" className="fill-lime-300" />
+                <Icon name="email" className="fill-blue-500" />
                 <div>
                   <div className="font-figtree font-medium text-base text-white">
                     Email

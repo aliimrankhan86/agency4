@@ -166,7 +166,7 @@ Wants consultation: ${formData.wantsConsultation ? 'Yes' : 'No'}
               <div>
                 <div className="w-full animate">
                   <div className="font-figtree text-sm uppercase text-neutral-950">
-                    First name <span className="text-lime-400">*</span>
+                    First name <span className="text-blue-600">*</span>
                   </div>
                   <input
                     type="text"
@@ -185,7 +185,7 @@ Wants consultation: ${formData.wantsConsultation ? 'Yes' : 'No'}
               <div>
                 <div className="w-full animate">
                   <div className="font-figtree text-sm uppercase text-neutral-950">
-                    Last name <span className="text-lime-400">*</span>
+                    Last name <span className="text-blue-600">*</span>
                   </div>
                   <input
                     type="text"
@@ -206,7 +206,7 @@ Wants consultation: ${formData.wantsConsultation ? 'Yes' : 'No'}
             <div>
               <div className="w-full animate">
                 <div className="font-figtree text-sm uppercase text-neutral-950">
-                  Email address <span className="text-lime-400">*</span>
+                  Email address <span className="text-blue-600">*</span>
                 </div>
                 <input
                   type="email"
@@ -268,7 +268,7 @@ Wants consultation: ${formData.wantsConsultation ? 'Yes' : 'No'}
                 id="consultation"
                 checked={formData.wantsConsultation}
                 onChange={(e) => handleInputChange('wantsConsultation', e.target.checked)}
-                className="h-4 w-4 text-lime-600 focus:ring-lime-500 border-gray-300 rounded"
+                className="h-4 w-4 text-blue-800 focus:ring-blue-700 border-gray-300 rounded"
               />
               <label htmlFor="consultation" className="ml-2 block text-sm text-neutral-700">
                 I'd like to book a consultation

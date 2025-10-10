@@ -8,7 +8,7 @@ const TextField = ({ label, placeholder, className }: TextFieldProps) => {
   return (
     <div className={`w-full ${className}`}>
       <div className="font-figtree text-sm uppercase text-neutral-950">
-        {label} <span className="text-lime-400">*</span>
+        {label} <span className="text-blue-600">*</span>
       </div>
       <input
         placeholder={placeholder}

@@ -75,7 +75,7 @@ const Team = ({ members }: TeamProps) => {
                       href={social.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-10 h-10 flex items-center justify-center border border-white/12 rounded-full text-white hover:bg-lime-300 hover:text-black transition-colors duration-300"
+                      className="w-10 h-10 flex items-center justify-center border border-white/12 rounded-full text-white hover:bg-blue-500 hover:text-white transition-colors duration-300"
                     >
                       <Icon name={social.name} weight="fill" />
                     </a>

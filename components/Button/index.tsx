@@ -34,7 +34,7 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   const classes = `group inline-flex items-center justify-center border rounded-full text-base gap-4 transition-all cursor-pointer disabled:pointer-events-none ${
     primary
-      ? "py-4 px-6 bg-lime-300 font-figtree text-sm font-medium text-black hover:bg-lime-400 border-0"
+      ? "py-4 px-6 bg-blue-700 font-figtree text-sm font-bold text-white hover:bg-blue-800 border-0"
       : ""
   } ${
     secondary
