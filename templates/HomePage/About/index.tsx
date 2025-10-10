@@ -47,13 +47,12 @@ const About = () => {
           </div>
 
           <div className="flex flex-col items-start">
-            <h1 className="animate mt-4 font-onest text-5xl font-medium leading-[1.2] text-neutral-950 lg:text-7xl">
-              Powering the Agency4 AI Revolution
+            <h1 className="animate mt-4 font-onest text-5xl font-medium leading-tight text-neutral-950 lg:text-7xl">
+              The Modern Business Bottleneck
             </h1>
 
-            <p className="animate mt-12 font-figtree text-lg text-neutral-500 lg:mt-auto">
-              Agency4 engineers AI ecosystems that connect every layer of your organisation from workflows to voice and data.
-              By combining real-time reasoning, adaptive learning and seamless integration, our technology eliminates bottlenecks and amplifies performance. What once required teams and tools now runs autonomously, intelligently, and at scale.
+            <p className="animate mt-5 font-figtree text-lg text-neutral-500">
+              Most businesses are overwhelmed by calls, enquiries, and manual admin that eat into productive hours.
             </p>
 
             <div className="animate mt-8">

@@ -36,89 +36,71 @@ const Features = () => {
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h1 className="animate mt-4 font-onest text-5xl font-medium leading-[1.2] text-neutral-950 lg:text-7xl">
-          AI in Action
+          Inbound. Outbound. Automation. Analytics.
         </h1>
         <p className="animate mt-4 max-w-3xl font-figtree text-lg text-neutral-500">
-          From automation to intelligent communication, every capability is designed to help businesses operate faster, engage customers naturally, and scale with confidence using Agency4's applied AI.
+          Complete voice automation solutions that handle every aspect of customer communication and business operations.
         </p>
 
         <div className="mt-12 grid grid-cols-1 gap-8 lg:mt-20 lg:grid-cols-2">
-          {/* Left Column */}
-          <div className="space-y-8">
-            <div className="animate bg-white p-8 rounded-2xl">
-              <div className="font-figtree text-xs text-neutral-500 uppercase tracking-wide mb-3">
-                AUTOMATED WORKFLOWS
-              </div>
-              <h3 className="font-onest text-2xl font-medium text-neutral-950 mb-4">
-                AI automation that removes repetitive tasks
-              </h3>
-              <p className="font-figtree text-base text-neutral-600">
-                Smart, integrated systems automate your everyday operations, saving hours and reducing errors across workflows.
-              </p>
+          <div className="animate bg-white p-8 rounded-2xl">
+            <div className="font-figtree text-xs text-neutral-500 uppercase tracking-wide mb-3">
+              INBOUND AGENTS
             </div>
-
-            <div className="animate bg-white p-8 rounded-2xl">
-              <div className="font-figtree text-xs text-neutral-500 uppercase tracking-wide mb-3">
-                VOICE AGENTS
-              </div>
-              <h3 className="font-onest text-2xl font-medium text-neutral-950 mb-4">
-                Conversational AI that speaks your brand
-              </h3>
-              <p className="font-figtree text-base text-neutral-600">
-                Human-like voice agents deliver real-time, multilingual assistance for sales, support, and onboarding.
-              </p>
-            </div>
-
-            <div className="animate bg-white p-8 rounded-2xl">
-              <div className="font-figtree text-xs text-neutral-500 uppercase tracking-wide mb-3">
-                CHATBOTS THAT THINK
-              </div>
-              <h3 className="font-onest text-2xl font-medium text-neutral-950 mb-4">
-                Chatbots powered by advanced reasoning
-              </h3>
-              <p className="font-figtree text-base text-neutral-600">
-                Responsive, context-aware chatbots engage users instantly and handle complex conversations with ease.
-              </p>
-            </div>
+            <h3 className="font-onest text-2xl font-medium text-neutral-950 mb-4">
+              Answer calls, handle queries, route intelligently
+            </h3>
+            <p className="font-figtree text-base text-neutral-600 mb-3">
+              What It Does: Professional AI agents answer every incoming call, understand customer needs, and provide accurate responses or seamlessly transfer to the right person.
+            </p>
+            <p className="font-figtree text-sm text-neutral-500">
+              Example: Customer support, booking lines
+            </p>
           </div>
 
-          {/* Right Column */}
-          <div className="space-y-8">
-            <div className="animate bg-white p-8 rounded-2xl">
-              <div className="font-figtree text-xs text-neutral-500 uppercase tracking-wide mb-3">
-                AI-POWERED EMAILS
-              </div>
-              <h3 className="font-onest text-2xl font-medium text-neutral-950 mb-4">
-                Personalised communication at scale
-              </h3>
-              <p className="font-figtree text-base text-neutral-600">
-                Generate, send, and optimise messages that adapt to tone, intent, and customer behaviour automatically.
-              </p>
+          <div className="animate bg-white p-8 rounded-2xl">
+            <div className="font-figtree text-xs text-neutral-500 uppercase tracking-wide mb-3">
+              OUTBOUND AGENTS
             </div>
+            <h3 className="font-onest text-2xl font-medium text-neutral-950 mb-4">
+              Proactively call customers or leads
+            </h3>
+            <p className="font-figtree text-base text-neutral-600 mb-3">
+              What It Does: AI agents reach out to your customers automatically for reminders, follow-ups, surveys, and engagement campaigns.
+            </p>
+            <p className="font-figtree text-sm text-neutral-500">
+              Example: Appointment reminders, feedback calls
+            </p>
+          </div>
 
-            <div className="animate bg-white p-8 rounded-2xl">
-              <div className="font-figtree text-xs text-neutral-500 uppercase tracking-wide mb-3">
-                PREDICTIVE INSIGHTS
-              </div>
-              <h3 className="font-onest text-2xl font-medium text-neutral-950 mb-4">
-                Data-driven intelligence for better decisions
-              </h3>
-              <p className="font-figtree text-base text-neutral-600">
-                Turn raw data into actionable insights using predictive models built to enhance accuracy and business agility.
-              </p>
+          <div className="animate bg-white p-8 rounded-2xl">
+            <div className="font-figtree text-xs text-neutral-500 uppercase tracking-wide mb-3">
+              AUTOMATIONS
             </div>
+            <h3 className="font-onest text-2xl font-medium text-neutral-950 mb-4">
+              Turn voice interactions into real actions
+            </h3>
+            <p className="font-figtree text-base text-neutral-600 mb-3">
+              What It Does: Every conversation triggers automated workflows that update systems, send confirmations, and execute business logic without manual intervention.
+            </p>
+            <p className="font-figtree text-sm text-neutral-500">
+              Example: CRM updates, email confirmations
+            </p>
+          </div>
 
-            <div className="animate bg-white p-8 rounded-2xl">
-              <div className="font-figtree text-xs text-neutral-500 uppercase tracking-wide mb-3">
-                SEAMLESS INTEGRATION
-              </div>
-              <h3 className="font-onest text-2xl font-medium text-neutral-950 mb-4">
-                Built to fit your existing ecosystem
-              </h3>
-              <p className="font-figtree text-base text-neutral-600">
-                Our AI solutions integrate smoothly with your CRM, website, and communication tools, ready for immediate impact.
-              </p>
+          <div className="animate bg-white p-8 rounded-2xl">
+            <div className="font-figtree text-xs text-neutral-500 uppercase tracking-wide mb-3">
+              ANALYTICS
             </div>
+            <h3 className="font-onest text-2xl font-medium text-neutral-950 mb-4">
+              Track performance and ROI
+            </h3>
+            <p className="font-figtree text-base text-neutral-600 mb-3">
+              What It Does: Comprehensive dashboards show exactly how your AI agents perform, where they save costs, and how they drive revenue.
+            </p>
+            <p className="font-figtree text-sm text-neutral-500">
+              Example: Response rates, cost reduction, satisfaction metrics
+            </p>
           </div>
         </div>
       </div>

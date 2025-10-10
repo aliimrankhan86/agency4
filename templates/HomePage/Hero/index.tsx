@@ -36,22 +36,18 @@ const Hero = () => {
       <div className="mx-auto max-w-7xl w-full px-6 pt-56 pb-24 z-10 lg:pt-80">
         <div className="flex flex-col items-center max-w-4xl mx-auto">
           <div className="animate mt-4 px-2 font-onest text-white font-medium text-5xl text-center leading-[1.2] md:text-8xl">
-            Power the AI Revolution with Agency4
+            Smarter Voice. Real Automation.
           </div>
           <div className="animate mt-6 px-2 font-figtree text-lg text-white text-center max-w-3xl">
-            Drive your vision forward with intelligence that thinks, adapts, and acts, all in real time.
-            At agency4, we empower businesses with autonomous AI systems that accelerate operations, elevate insight, and unlock scale.
+            AI voice agents and automations that talk, act, and deliver results.
           </div>
-          <div className="mt-8 w-full flex items-center justify-center flex-col gap-x-4 gap-y-4 lg:flex-row">
-            <div className="animate w-full lg:w-auto">
-              <LoginGatedButton primary className="w-full">
-                Explore AI Capabilities
-              </LoginGatedButton>
-            </div>
-
+          <div className="animate mt-6 px-2 font-figtree text-lg text-white text-center max-w-3xl">
+            Stop losing opportunities to unanswered calls and repetitive tasks. Our AI agents handle conversations, bookings, and follow-ups, all with a natural, human tone that builds trust and delivers measurable outcomes.
+          </div>
+          <div className="mt-8 w-full flex items-center justify-center">
             <div className="animate w-full lg:w-auto">
               <ConsultationButton primary className="w-full">
-                Book a Free Consultation
+                Book a Demo
               </ConsultationButton>
             </div>
           </div>
