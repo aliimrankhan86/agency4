@@ -144,7 +144,7 @@ const Header = () => {
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <Button
-                className="fill-black border-blue-500 text-black hover:border-blue-600"
+                className="fill-white border-blue-500 text-white hover:border-blue-600"
                 onClick={handleLoginGatedClick}
                 icon="arrow-up-right"
                 primary
