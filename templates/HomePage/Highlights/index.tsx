@@ -49,7 +49,7 @@ const Highlights = () => {
 
         <div className="animate relative w-full h-96 lg:h-[700px]">
           <Image
-            src="/images/Green-AI-future.png"
+            src="/images/Blue-AI-future.png"
             alt="AI Voice Automation"
             fill
             style={{ objectFit: "cover" }}

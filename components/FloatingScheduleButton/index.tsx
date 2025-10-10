@@ -53,8 +53,14 @@ const FloatingScheduleButton = () => {
           Schedule a Call
         </span>
         
-        {/* Pulse animation */}
-        <div className="absolute -inset-1 bg-blue-500 rounded-full opacity-75 animate-ping"></div>
+        {/* Pulse animation - slower with delay */}
+        <div 
+          className="absolute -inset-1 bg-blue-500 rounded-full opacity-75 animate-ping"
+          style={{ 
+            animationDuration: '2s',
+            animationDelay: '1s'
+          }}
+        ></div>
       </button>
     </div>
   );

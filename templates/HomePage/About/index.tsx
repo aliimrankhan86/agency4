@@ -36,18 +36,14 @@ const About = () => {
   return (
     <div ref={container} className="overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-24 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <div className="animate relative w-full h-96 lg:h-[700px]">
-            <Image
-              src="/images/green-voice.png"
-              alt="AI Voice Intelligence"
-              fill
-              style={{ objectFit: "contain" }}
-            />
-          </div>
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-24 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-center">
+          <div 
+            className="animate relative w-full h-[300px] lg:h-auto lg:min-h-[420px] bg-white rounded-2xl overflow-hidden bg-cover bg-center bg-no-repeat"
+            style={{ backgroundImage: "url('/images/voicecake-img.png')" }}
+          />
 
-          <div className="flex flex-col items-start">
-            <h1 className="animate mt-4 font-onest text-5xl font-medium leading-tight text-neutral-950 lg:text-7xl">
+          <div className="flex flex-col items-start lg:py-5">
+            <h1 className="animate mt-4 font-onest text-4xl font-medium leading-tight text-neutral-950 lg:text-6xl">
               The Modern Business Bottleneck
             </h1>
 
@@ -55,11 +51,6 @@ const About = () => {
               Most businesses are overwhelmed by calls, enquiries, and manual admin that eat into productive hours.
             </p>
 
-            <div className="animate mt-8">
-              <LoginGatedButton secondary icon="arrow-right">
-                Learn More
-              </LoginGatedButton>
-            </div>
           </div>
         </div>
 

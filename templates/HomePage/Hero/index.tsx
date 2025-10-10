@@ -28,9 +28,20 @@ const Hero = () => {
   return (
     <div
       ref={container}
-      className="relative flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/green-banner.png')" }}
+      className="relative flex items-center justify-center min-h-screen"
     >
+      {/* Video Background */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover z-0"
+      >
+        <source src="/images/agency4-animation.webm" type="video/webm" />
+      </video>
+      
+      {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/50 z-0" />
 
       <div className="mx-auto max-w-7xl w-full px-6 pt-56 pb-24 z-10 lg:pt-80">
@@ -57,32 +68,32 @@ const Hero = () => {
           <div className="grid grid-cols-2 gap-y-6 lg:grid-flow-col-dense">
             <div className="animate text-center border-r px-6 border-white/12 lg:text-left lg:px-8">
               <div className="font-onest text-2xl font-medium text-white">
-                99.9% Uptime
+                40% Cost Savings
               </div>
-              <div className="mt-2 font-figtree text-sm text-white">Enterprise Resilience</div>
+              <div className="mt-2 font-figtree text-sm text-white">On average per client</div>
             </div>
 
             <div className="animate text-center px-6 lg:text-left lg:px-8">
               <div className="font-onest text-2xl font-medium text-white">
-                &lt;1s Response
+                24/7 Availability
               </div>
               <div className="mt-2 font-figtree text-sm text-white">
-                Instant AI Reasoning
+                Never miss a customer
               </div>
             </div>
 
             <div className="animate col-span-2 text-center border-t pt-6 border-white/12 lg:border-l lg:border-t-0 lg:pt-0 lg:pl-8 lg:text-left">
               <div className="font-onest text-2xl font-medium text-white">
-                5× Productivity
+                3x Faster Response
               </div>
               <div className="mt-2 font-figtree text-sm text-white">
-                Measurable Business Impact
+                Instant customer support
               </div>
             </div>
           </div>
 
           <div className="animate font-figtree text-center text-base text-white max-w-sm lg:text-left">
-            Discover applied AI that transforms workflows, powers decisions, and enriches every interaction.
+            Join hundreds of businesses already transforming their operations with AI-powered automation.
           </div>
         </div>
       </div>
