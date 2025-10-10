@@ -47,7 +47,7 @@ const Vehicles = () => {
 
         <div className="mt-12 grid grid-cols-1 gap-8 lg:mt-20 lg:grid-cols-2">
           <div className="animate bg-neutral-800 p-8 rounded-2xl border border-neutral-700 shadow-xl">
-            <div className="font-figtree text-xs text-lime-300 uppercase tracking-wide mb-3">
+            <div className="font-figtree text-xs text-blue-500 uppercase tracking-wide mb-3">
               NATURAL VOICES
             </div>
             <h3 className="font-onest text-2xl font-medium text-white mb-4">
@@ -59,7 +59,7 @@ const Vehicles = () => {
           </div>
 
           <div className="animate bg-neutral-800 p-8 rounded-2xl border border-neutral-700 shadow-xl">
-            <div className="font-figtree text-xs text-lime-300 uppercase tracking-wide mb-3">
+            <div className="font-figtree text-xs text-blue-500 uppercase tracking-wide mb-3">
               INTELLIGENT UNDERSTANDING
             </div>
             <h3 className="font-onest text-2xl font-medium text-white mb-4">
@@ -71,7 +71,7 @@ const Vehicles = () => {
           </div>
 
           <div className="animate bg-neutral-800 p-8 rounded-2xl border border-neutral-700 shadow-xl">
-            <div className="font-figtree text-xs text-lime-300 uppercase tracking-wide mb-3">
+            <div className="font-figtree text-xs text-blue-500 uppercase tracking-wide mb-3">
               NO-CODE BUILDER
             </div>
             <h3 className="font-onest text-2xl font-medium text-white mb-4">
@@ -83,7 +83,7 @@ const Vehicles = () => {
           </div>
 
           <div className="animate bg-neutral-800 p-8 rounded-2xl border border-neutral-700 shadow-xl">
-            <div className="font-figtree text-xs text-lime-300 uppercase tracking-wide mb-3">
+            <div className="font-figtree text-xs text-blue-500 uppercase tracking-wide mb-3">
               SEAMLESS INTEGRATIONS
             </div>
             <h3 className="font-onest text-2xl font-medium text-white mb-4">
@@ -95,7 +95,7 @@ const Vehicles = () => {
           </div>
 
           <div className="animate bg-neutral-800 p-8 rounded-2xl border border-neutral-700 shadow-xl lg:col-span-2">
-            <div className="font-figtree text-xs text-lime-300 uppercase tracking-wide mb-3">
+            <div className="font-figtree text-xs text-blue-500 uppercase tracking-wide mb-3">
               LIVE ANALYTICS
             </div>
             <h3 className="font-onest text-2xl font-medium text-white mb-4">

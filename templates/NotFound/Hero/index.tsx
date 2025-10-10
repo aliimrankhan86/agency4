@@ -10,7 +10,7 @@ const Hero = () => {
 
       <div className="mx-auto max-w-7xl w-full px-6 pt-56 pb-24 z-10">
         <div className="flex flex-col items-center text-center max-w-lg mx-auto">
-          <div className="font-figtree font-medium text-xs tracking-[.12em] uppercase text-lime-300">
+          <div className="font-figtree font-medium text-xs tracking-[.12em] uppercase text-blue-500">
             ERROR
           </div>
           <div className="mt-6 px-2 font-onest text-white font-medium text-8xl leading-none lg:text-[220px]">

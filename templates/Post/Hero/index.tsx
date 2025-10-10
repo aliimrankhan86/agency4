@@ -45,7 +45,7 @@ const Hero = ({ article }: HeroProps) => {
           >
             {article.time}
           </Link>
-          <div className="animate text-lime-300">
+          <div className="animate text-blue-500">
             <Icon name="dot-outline" weight="fill" />
           </div>
           <div className="animate font-figtree font-medium text-sm tracking-[.12em] uppercase text-white">

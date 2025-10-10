@@ -40,7 +40,7 @@ const Markdown = ({ article }: MarkdownProps) => {
                   href={item.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group bg-neutral-900 w-11 h-11 flex items-center justify-center border border-neutral-700 rounded-full text-lime-300 hover:bg-white hover:text-black transition-colors duration-300 ease-in-out"
+                  className="group bg-neutral-900 w-11 h-11 flex items-center justify-center border border-neutral-700 rounded-full text-blue-500 hover:bg-white hover:text-black transition-colors duration-300 ease-in-out"
                 >
                   <Icon name={item.icon} weight="fill" />
                 </a>

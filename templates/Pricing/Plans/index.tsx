@@ -41,7 +41,7 @@ const Plans = () => {
                     ${item.price}
                   </div>
                   <div
-                    className={`font-figtree text-sm ${enterprise ? "text-lime-300" : "text-neutral-500"}`}
+                    className={`font-figtree text-sm ${enterprise ? "text-blue-500" : "text-neutral-500"}`}
                   >
                     / MONTH
                   </div>
@@ -68,7 +68,7 @@ const Plans = () => {
                     <div key={item.name} className="flex items-center gap-3">
                       <Icon
                         name="check"
-                        className={`${enterprise ? "text-lime-300" : "text-neutral-950"}`}
+                        className={`${enterprise ? "text-blue-500" : "text-neutral-950"}`}
                       />
                       <div
                         className={`font-figtree text-sm ${enterprise ? "text-neutral-400" : "text-neutral-500"}`}

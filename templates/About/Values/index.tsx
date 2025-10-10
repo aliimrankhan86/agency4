@@ -53,7 +53,7 @@ const Values = () => {
         <dl className="mt-12 grid grid-cols-1 gap-x-8 gap-y-8 lg:mt-20 lg:grid-cols-3">
           {values.map((item) => (
             <div key={item.title} className="animate p-10 bg-neutral-900">
-              <Icon name={item.icon} size={48} className="fill-lime-300" />
+              <Icon name={item.icon} size={48} className="fill-blue-500" />
 
               <dt className="mt-20 font-onest text-2xl font-medium text-white">
                 {item.title}

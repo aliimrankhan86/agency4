@@ -106,7 +106,7 @@ const Packages = () => {
                 </div>
                 <div
                   className={`font-figtree text-sm ${
-                    pkg.featured ? "text-lime-300" : "text-neutral-500"
+                    pkg.featured ? "text-blue-500" : "text-neutral-500"
                   } uppercase`}
                 >
                   {pkg.subtitle}
@@ -123,7 +123,7 @@ const Packages = () => {
                 </div>
                 <div
                   className={`font-figtree text-sm ${
-                    pkg.featured ? "text-lime-300" : "text-neutral-500"
+                    pkg.featured ? "text-blue-500" : "text-neutral-500"
                   }`}
                 >
                   / MONTH
@@ -158,7 +158,7 @@ const Packages = () => {
                     <Icon
                       name="check"
                       className={`flex-shrink-0 ${
-                        pkg.featured ? "text-lime-300" : "text-neutral-950"
+                        pkg.featured ? "text-blue-500" : "text-neutral-950"
                       }`}
                       size={20}
                     />

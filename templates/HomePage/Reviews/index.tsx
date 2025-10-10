@@ -110,7 +110,7 @@ const Reviews = ({
 
         <div className="mt-16 lg:mt-24">
           <div className="animate bg-neutral-900 p-10 rounded-2xl lg:p-16">
-            <div className="font-figtree text-xs text-lime-300 uppercase tracking-wide mb-4">
+            <div className="font-figtree text-xs text-blue-500 uppercase tracking-wide mb-4">
               CASE STUDY
             </div>
             <h2 className="font-onest text-3xl font-medium text-white mb-6 lg:text-4xl">
@@ -119,7 +119,7 @@ const Reviews = ({
             
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 mb-8">
               <div>
-                <div className="font-figtree text-sm text-lime-300 uppercase mb-2">
+                <div className="font-figtree text-sm text-blue-500 uppercase mb-2">
                   Before
                 </div>
                 <p className="font-figtree text-base text-neutral-300">
@@ -127,7 +127,7 @@ const Reviews = ({
                 </p>
               </div>
               <div>
-                <div className="font-figtree text-sm text-lime-300 uppercase mb-2">
+                <div className="font-figtree text-sm text-blue-500 uppercase mb-2">
                   After
                 </div>
                 <p className="font-figtree text-base text-neutral-300">
@@ -137,7 +137,7 @@ const Reviews = ({
             </div>
 
             <div className="border-t border-neutral-700 pt-8">
-              <div className="font-figtree text-sm text-lime-300 uppercase mb-6">
+              <div className="font-figtree text-sm text-blue-500 uppercase mb-6">
                 Results (30 days)
               </div>
               <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -160,7 +160,7 @@ const Reviews = ({
 
         <div className="mt-16 lg:mt-24">
           <div className="animate bg-neutral-900 p-10 rounded-2xl lg:p-16">
-            <div className="font-figtree text-xs text-lime-300 uppercase tracking-wide mb-4">
+            <div className="font-figtree text-xs text-blue-500 uppercase tracking-wide mb-4">
               CASE STUDY
             </div>
             <h2 className="font-onest text-3xl font-medium text-white mb-6 lg:text-4xl">
@@ -169,7 +169,7 @@ const Reviews = ({
             
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 mb-8">
               <div>
-                <div className="font-figtree text-sm text-lime-300 uppercase mb-2">
+                <div className="font-figtree text-sm text-blue-500 uppercase mb-2">
                   Before
                 </div>
                 <p className="font-figtree text-base text-neutral-300">
@@ -177,7 +177,7 @@ const Reviews = ({
                 </p>
               </div>
               <div>
-                <div className="font-figtree text-sm text-lime-300 uppercase mb-2">
+                <div className="font-figtree text-sm text-blue-500 uppercase mb-2">
                   After
                 </div>
                 <p className="font-figtree text-base text-neutral-300">
@@ -187,7 +187,7 @@ const Reviews = ({
             </div>
 
             <div className="border-t border-neutral-700 pt-8">
-              <div className="font-figtree text-sm text-lime-300 uppercase mb-6">
+              <div className="font-figtree text-sm text-blue-500 uppercase mb-6">
                 Results (30 days)
               </div>
               <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -210,7 +210,7 @@ const Reviews = ({
 
         <div className="mt-16 lg:mt-24">
           <div className="animate bg-neutral-900 p-10 rounded-2xl lg:p-16">
-            <div className="font-figtree text-xs text-lime-300 uppercase tracking-wide mb-4">
+            <div className="font-figtree text-xs text-blue-500 uppercase tracking-wide mb-4">
               CASE STUDY
             </div>
             <h2 className="font-onest text-3xl font-medium text-white mb-6 lg:text-4xl">
@@ -219,7 +219,7 @@ const Reviews = ({
             
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 mb-8">
               <div>
-                <div className="font-figtree text-sm text-lime-300 uppercase mb-2">
+                <div className="font-figtree text-sm text-blue-500 uppercase mb-2">
                   Before
                 </div>
                 <p className="font-figtree text-base text-neutral-300">
@@ -227,7 +227,7 @@ const Reviews = ({
                 </p>
               </div>
               <div>
-                <div className="font-figtree text-sm text-lime-300 uppercase mb-2">
+                <div className="font-figtree text-sm text-blue-500 uppercase mb-2">
                   After
                 </div>
                 <p className="font-figtree text-base text-neutral-300">
@@ -237,7 +237,7 @@ const Reviews = ({
             </div>
 
             <div className="border-t border-neutral-700 pt-8">
-              <div className="font-figtree text-sm text-lime-300 uppercase mb-6">
+              <div className="font-figtree text-sm text-blue-500 uppercase mb-6">
                 Results (30 days)
               </div>
               <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
