@@ -90,7 +90,7 @@ const Packages = () => {
           {packages.map((pkg) => (
             <div
               key={pkg.tier}
-              className={`animate p-10 ${
+              className={`animate p-10 flex flex-col ${
                 pkg.featured
                   ? "bg-blue-500 text-white"
                   : "bg-neutral-800 text-white"
@@ -140,7 +140,7 @@ const Packages = () => {
                 Includes:
               </div>
 
-              <div className="mt-6 flex flex-col gap-4">
+              <div className="mt-6 flex flex-col gap-4 flex-1">
                 {pkg.features.map((feature, index) => (
                   <div key={index} className="flex items-start gap-3">
                     <Icon
