@@ -19,10 +19,11 @@ export const metadata: Metadata = {
   description: "AI voice agents and automations that talk, act, and deliver results.",
   icons: {
     icon: [
+      { url: '/favicon.ico', sizes: 'any' },
       { url: '/images/Agency4-logo.png', sizes: '32x32', type: 'image/png' },
       { url: '/images/Agency4-logo.png', sizes: '16x16', type: 'image/png' },
     ],
-    shortcut: '/images/Agency4-logo.png',
+    shortcut: '/favicon.ico',
     apple: '/images/Agency4-logo.png',
   },
 };
@@ -36,8 +37,11 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/images/Agency4-logo.png" type="image/png" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/images/Agency4-logo.png" type="image/png" sizes="32x32" />
+        <link rel="icon" href="/images/Agency4-logo.png" type="image/png" sizes="16x16" />
         <link rel="apple-touch-icon" href="/images/Agency4-logo.png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
       </head>
       <body className={`${onest.variable} ${figtree.variable} antialiased`}>
         <LenisProvider>{children}</LenisProvider>

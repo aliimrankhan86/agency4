@@ -7,7 +7,7 @@ export const reviews = [
       "Agency4 launched our entire automation stack in weeks. ROI followed within days.",
     reviewer_image: "/reviews/maya-robinson.png",
     reviewer: "Maya Robinson",
-    location: "San Francisco",
+    location: "London",
   },
   {
     rating: "4.0",
@@ -17,7 +17,7 @@ export const reviews = [
       "Our conversational agents now rival human engagement. Expressive, reliable, and always learning.",
     reviewer_image: "/reviews/jordan-taylor.png",
     reviewer: "Jordan Taylor",
-    location: "Austin",
+    location: "Manchester",
   },
   {
     rating: "5.0",
@@ -27,7 +27,7 @@ export const reviews = [
       "Integration was seamless, output was fast, and the control was tighter than expected.",
     reviewer_image: "/reviews/lena-williams.png",
     reviewer: "Lena Williams",
-    location: "Chicago",
+    location: "Birmingham",
   },
   {
     rating: "4.0",
@@ -37,7 +37,7 @@ export const reviews = [
       "Enterprise-grade AI at approachable scale. Agency4 redefined how we use tech.",
     reviewer_image: "/reviews/samuel-bennett.png",
     reviewer: "Samuel Bennett",
-    location: "Seattle",
+    location: "Edinburgh",
   },
   {
     rating: "5.0",
@@ -47,7 +47,7 @@ export const reviews = [
       "Concept to production in record time. Precision, control, and clarity throughout.",
     reviewer_image: "/reviews/priya-desai.png",
     reviewer: "Priya Desai",
-    location: "Los Angeles",
+    location: "New York",
   },
   {
     rating: "5.0",
@@ -57,6 +57,6 @@ export const reviews = [
       "Our operations feel alive: data flows, insights emerge, strategy follows.",
     reviewer_image: "/reviews/tomas-muller.png",
     reviewer: "Thomas Müller",
-    location: "Denver",
+    location: "Boston",
   },
 ];

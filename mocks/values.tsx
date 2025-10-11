@@ -3,7 +3,7 @@ export const values = [
     icon: "lightning",
     title: "Sustainability",
     description:
-      "We design for a cleaner planet—using renewable energy, recyclable materials, and zero emissions from day one.",
+      "We design for a cleaner planet using renewable energy, recyclable materials, and zero emissions from day one.",
   },
   {
     icon: "brain",
@@ -15,7 +15,7 @@ export const values = [
     icon: "shield",
     title: "Safety First",
     description:
-      "Advanced sensors, AI, and 360° awareness protect you and those around you—before, and after every drive.",
+      "Advanced sensors, AI, and 360° awareness protect you and those around you before, and after every drive.",
   },
   {
     icon: "handshake",
@@ -33,6 +33,6 @@ export const values = [
     icon: "rocket",
     title: "Performance",
     description:
-      "Speed, control, and thrill—without sacrificing the values that matter. Because performance can rise.",
+      "Speed, control, and thrill without sacrificing the values that matter. Because performance can rise.",
   },
 ];

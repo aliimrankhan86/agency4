@@ -68,7 +68,7 @@ const Footer = () => {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="flex flex-col gap-6 items-center justify-between lg:flex-row">
             <div className="font-figtree text-base text-white">
-              © {new Date().getFullYear()} agency4 — All rights reserved
+              © {new Date().getFullYear()} agency4 - All rights reserved
             </div>
 
             <div className="flex items-center gap-12">
