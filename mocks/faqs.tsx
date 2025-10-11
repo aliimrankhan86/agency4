@@ -20,7 +20,7 @@ export const faqs = [
       {
         question: "Will it fit with my tech stack?",
         answer:
-          "Yes — our modules are designed to slot in without replacing your existing systems.",
+          "Yes, our modules are designed to slot in without replacing your existing systems.",
       },
       {
         question: "Can it scale under demand?",

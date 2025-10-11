@@ -25,7 +25,7 @@ export const vehicles = [
     vehicle: "02",
     name: "AI Workflow Automation",
     description:
-      "Automate repetitive processes with intelligence that adapts, learns, and scales. Agency4's automation systems synchronise data, streamline operations, and reduce manual effort — freeing teams to focus on innovation.",
+      "Automate repetitive processes with intelligence that adapts, learns, and scales. Agency4's automation systems synchronise data, streamline operations, and reduce manual effort, freeing teams to focus on innovation.",
     range: "70% Faster",
     top_speed: "99.9% Uptime",
     mph: "Rapid Deployment",
