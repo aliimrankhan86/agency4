@@ -32,7 +32,7 @@ const Button: React.FC<ButtonProps> = ({
   as = "button",
   ...props
 }) => {
-  const classes = `group inline-flex items-center justify-center border rounded-full text-base gap-4 transition-all cursor-pointer disabled:pointer-events-none ${
+  const classes = `group inline-flex items-center justify-center border rounded-full text-base gap-4 transition-all cursor-pointer disabled:pointer-events-none focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
     primary
       ? "py-4 px-6 bg-blue-700 font-figtree text-sm font-bold text-white hover:bg-blue-800 border-0"
       : ""

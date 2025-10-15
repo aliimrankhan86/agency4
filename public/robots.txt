@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Block access to admin and development areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow access to important pages
+Allow: /
+Allow: /about
+Allow: /contact
+Allow: /pricing
+Allow: /reviews
+Allow: /team
+Allow: /news
+Allow: /faqs
+Allow: /vehicles
+
+# Sitemap location
+Sitemap: https://agency4.ai/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
