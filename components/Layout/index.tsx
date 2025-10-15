@@ -5,6 +5,7 @@ import Header from "../Header";
 import LoginPrompt from "../LoginPrompt";
 import ConsultationModal from "../ConsultationModal";
 import FloatingScheduleButton from "../FloatingScheduleButton";
+import StructuredData from "../StructuredData";
 import { LoginGateProvider, useLoginGate } from "@/contexts/LoginGateContext";
 import { ConsultationProvider, useConsultation } from "@/contexts/ConsultationContext";
 
@@ -18,8 +19,11 @@ const LayoutContent = ({ children }: LayoutProps) => {
 
   return (
     <>
+      <StructuredData />
       <Header />
-      {children}
+      <main id="main-content" role="main">
+        {children}
+      </main>
       <Footer />
       <FloatingScheduleButton />
       <LoginPrompt isOpen={isLoginPromptOpen} onClose={closeLoginPrompt} initialMode={loginMode} />

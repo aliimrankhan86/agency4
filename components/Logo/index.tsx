@@ -13,8 +13,10 @@ const Logo = ({ mobileMenuOpen }: LogoProps) => {
           src="/images/Agency4-logo.png"
           alt="Agency4 Logo"
           fill
+          sizes="32px"
           style={{ objectFit: "contain" }}
           className="brightness-0 invert"
+          priority
         />
       </div>
 

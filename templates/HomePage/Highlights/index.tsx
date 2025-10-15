@@ -33,10 +33,10 @@ const Highlights = () => {
   );
 
   return (
-    <div ref={container} className="overflow-hidden bg-white">
+    <section ref={container} className="overflow-hidden bg-white" aria-labelledby="solution-heading">
       <div className="bg-neutral-100 grid grid-cols-1 items-center lg:grid-cols-2">
         <div className="py-12 px-6 lg:py-32 lg:px-32">
-          <h2 className="animate mt-4 font-onest text-4xl leading-[1.2] text-neutral-950 font-medium lg:text-5xl">
+          <h2 id="solution-heading" className="animate mt-4 font-onest text-4xl leading-[1.2] text-neutral-950 font-medium lg:text-5xl">
             Meet Your Intelligent Voice Automation Partner
           </h2>
           <p className="animate mt-4 font-figtree text-lg text-neutral-500">
@@ -50,13 +50,15 @@ const Highlights = () => {
         <div className="animate relative w-full h-96 lg:h-[700px]">
           <Image
             src="/images/Blue-AI-future.png"
-            alt="AI Voice Automation"
+            alt="AI voice automation technology illustration showing intelligent voice agents and automated workflows"
             fill
             style={{ objectFit: "cover" }}
+            priority={false}
+            sizes="(max-width: 768px) 100vw, 50vw"
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
